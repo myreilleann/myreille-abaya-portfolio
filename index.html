@@ -12,6 +12,7 @@
     <!-- Custom Styles -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> -->
 
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -20,9 +21,9 @@
 
   <body>
     <nav>
-      <ul>
-        <li><img src="images/nav-logo.svg" alt="nav-logo"></li>
-        <li>myreille abaya  |  ux / ui designer &amp; developer</li>
+      <ul class="nav-list">
+        <li><img id="nav-logo" src="images/nav-logo.svg" alt="nav-logo"></li>
+        <li><span id="nav-name">myreille abaya</span>  |  ux / ui designer &amp; developer</li>
         <li>projects</li>
         <li>|</li>
         <li>resume</li>
@@ -34,9 +35,9 @@
     </nav>
 
     <!-- Hero Screen -->
-    <header class="mdl-layout__header mdl-layout__header--transparent">
-      <h1>myreille abaya</h1>
-      <h2><span>[</span>MY-rail<span>]</span></h2>
+    <main class="mdl-layout__header mdl-layout__header--transparent">
+      <h1 id="hero-name">myreille abaya</h1>
+      <h2><span id="brackets">[</span>MY-rail<span id="brackets">]</span></h2>
       <p class="slogan">
         Thank you for visiting my page!
         <br>
@@ -50,21 +51,21 @@
         with human sensibility.
       </p>
       <button type="button" name="projects" value="check out my work">check out my work</button>
-      <img src="images/down-arrow.svg" alt="down-arrow">
-    </header>
+      <img id="down-arrow" src="images/down-arrow.svg" alt="down-arrow">
+    </main>
 
     <!-- Projects -->
-    <main class="mdl-layout__content mdl-grid">
+    <section class="mdl-layout__content mdl-grid">
       <div class="mdl-cell mdl-cell--7-col">
         <h4 class="mdl-card__title-text">my design show & tell</h4>
-        <img src="images/px-cover.svg" alt="project">
+        <img id="px-cover" src="images/px-cover.svg" alt="project">
         <!-- <p class="project-description mdl-card__supporting-text">Project description text</p> -->
       </div>
       <!-- <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
         <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
         </div>
       </div> -->
-    </main>
+    </section>
 
     <!-- Process -->
     <section class="process">
@@ -80,8 +81,8 @@
          <br>
          intuition..
       </p>
-      <img src="images/outside-box.svg" alt="illustration">
-      <img src="images/accessibility.svg" alt="illustration">
+      <img id="outside-box" src="images/outside-box.svg" alt="illustration">
+      <img id="accessible"src="images/accessibility.svg" alt="illustration">
       <h5>I advocate inclusive design.</h5>
       <p>I believe technology creates many
         <br>
@@ -100,19 +101,13 @@
       <h3>Let's make a difference together!</h3>
       <ul class="mdl-mini-footer__link-list">
         <li>
-          <a href="https://www.linkedin.com/in/myreille/">
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-          </a>
+          <img id="linkedin" src="images/linkedin.svg" alt="linkedin">
         </li>
         <li>
-          <a href="{https://github.com/myreilleann">
-            <i class="fa fa-github-square" aria-hidden="true"></i>
-          </a>
+          <img id="github" src="images/github.svg" alt="github">
         </li>
         <li>
-          <a href="mailto:m_abaya79@@yahoo.com">
-            <i class="fa fa-envelope-square" aria-hidden="true"></i>
-          </a>
+          <img id="email" src="images/email.svg" alt="email">
         </li>
       </ul>
       <p>© 2018 myrelle abaya  |  designed & developed by myreille abaya</p>
