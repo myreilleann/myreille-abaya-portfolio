@@ -1,54 +1,55 @@
 * {
-  font-size: 16px;
+  box-sizing: border-box;
 }
 
 *, *:before, *:after {
-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
 }
 
 body {
   background: #ECEDED;
+}
+
+.container {
+  height: 100wh;
   margin: 0 auto;
-  width: 100%
+  width: 100%;
 }
 
 nav {
-  height: 64px;
+  height: 6.4rem;
   position: fixed;
   width: 100%;
 }
 
-.nav-list {
+.logo {
+  float: left;
+}
+
+.name {
   color: #563A5F;
-  font-family: 'Quicksand', sans-serif;;
-  font-weight: 700;
-  font-size: 20px;
+  float: left;
+  padding-left: 1.5rem;
 }
 
-#nav-logo {
-  height: 42.75px;
-  width: 50px;
-}
-
-#nav.name {
-  olor: #563A5F;
+.link {
+  float: right;
 }
 
 header {
   background-image: url('../images/hero.svg');
   background-repeat: no-repeat;
-  height: 1024px;
   width: 100%;
-}
-
-button {
-  height: 45px:
 }
 
 #hero-name {
   color: #563A5F;
   font-family: 'Arkipelago', sans-serif;
-  font-size: 150px;
+  font-size: 15rem;
 }
 
 h2 {
@@ -58,39 +59,13 @@ h2 {
 #brackets {
   color: rgba(8, 8, 9, 0.2);
   font-family: 'Quicksand', sans-serif;
-  font-size: 50px;
+  font-size: 5rem;
   font-weight: 700;
 }
 
 p {
   color: #080809;
   font-family: 'Quicksand', sans-serif;
-  line-height: 50%;
-  font-size: 35px;
-}
-
-#down-arrow {
-  height: 30.85px;
-}
-
-#px=cpver {
-  height: 818px;
-}
-
-#outside-box {
-  height: 483px;
-}
-
-#accessibility {
-  height: 364.14px;
-}
-
-#linkedin {
-  height: 40px;
-}
-#github {
-  height: 40px;
-}
-#email {
-  height: 40px;
+  font-size: 2.5rem;
+  line-height: 120%;
 }
