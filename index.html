@@ -3,45 +3,46 @@
   <head>
     <meta charset="utf-8">
     <title>Portfolio | Myreille Abaya</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Material Design Lite -->
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-lime.min.css">
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> -->
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Font Awesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  </head>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head> -->
 
 
   <body>
     <div class="container">
       <nav>
         <ul>
-          <li><img class="logo" src="images/nav-logo.svg" alt="nav-logo"></li>
+          <li><a href="index.html"><img class="logo" src="images/nav-logo.svg" alt="nav-logo"></li>
           <li><span class="name">myreille abaya</span>  |  ux / ui designer &amp; developer</li>
           <div class="link">
-            <li>projects</li>
+            <li><a href="#projects">projects</a></li>
             <li>|</li>
-            <li>resume</li>
+            <li><a href="resume.html" target="_blank">resume</a></li>
             <li>|</li>
-            <li>about</li>
+          <li><a href="about.html" target="_blank">about</a></li>
             <li>|</li>
-            <li>contact</li>
+            <li><a href="contact.html" target="_blank">contact</a></li>
           </ul>
         </div>
       </nav>
 
-      <!-- Hero Screen -->
-      <main class="mdl-layout__header mdl-layout__header--transparent">
-        <h1 id="hero-name">myreille abaya</h1>
+      <!-- Hero Unit -->
+      <main class="jumbotron">
+        <h1 class="display-4"id="hero-name">myreille abaya</h1>
         <h2><span id="brackets">[</span>MY-rail<span id="brackets">]</span></h2>
-        <p class="slogan">
+        <p class="lead slogan">
           Thank you for visiting my page!
           <br>
           I’m a UX / UI Designer &amp; Developer
@@ -53,26 +54,21 @@
           <br>
           with human sensibility.
         </p>
-        <button type="button" name="projects" value="check out my work">check out my work</button>
+        <a href="#projects"><button type="button" name="projects">check out my work</button>
         <img id="down-arrow" src="images/down-arrow.svg" alt="down-arrow">
       </main>
 
       <!-- Projects -->
-      <section class="mdl-layout__content mdl-grid">
-        <div class="mdl-cell mdl-cell--7-col">
-          <h4 class="mdl-card__title-text">my design show & tell</h4>
-          <img id="px-cover" src="images/px-cover.svg" alt="project">
-          <!-- <p class="project-description mdl-card__supporting-text">Project description text</p> -->
+      <section id="projects">
+        <div>
+          <h4>my design show & tell</h4>
+          <a href="project.html"><img id="px-cover" src="images/px-cover.svg" alt="project">
         </div>
-        <!-- <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
-          <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
-          </div>
-        </div> -->
       </section>
 
       <!-- Process -->
       <section class="process">
-        <h4 class="mdl-card__title-text">my design philosophy</h4>
+        <h4>my design philosophy</h4>
         <h5>I think outside the box.</h5>
         <p>I practice divergent thinking and start
            <br>
@@ -100,9 +96,9 @@
       </section>
 
       <!-- Contact, Footer -->
-      <footer class="mdl-mini-footer">
+      <footer>
         <h3>Let's make a difference together!</h3>
-        <ul class="mdl-mini-footer__link-list">
+        <ul>
           <li>
             <img id="linkedin" src="images/linkedin.svg" alt="linkedin">
           </li>
@@ -116,5 +112,11 @@
         <p>© 2018 myrelle abaya  |  designed & developed by myreille abaya</p>
       </footer>
     </div>
+
+    <!-- Bootstrap JS  -->
+      <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+
   </body>
 </html>
