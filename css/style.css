@@ -6,25 +6,28 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   font-size: 10px;
 }
 
 body {
   background: #ECEDED;
+  color: #080809;
+  font-family: 'Quicksand', sans-serif;
+  width: 100%;
 }
 
 .container {
   display: grid;
-  height: 100wh;
+  grid-gap: 5rem;
+  grid-template-columns: 1fr;
   margin: 0 auto;
-  width: 100%;
+  padding: 0 3.6rem;
 }
 
 nav {
-  height: 6.4rem;
+  /* height: 6.4rem; */
   position: fixed;
-  width: 100%;
 }
 
 .logo {
@@ -37,36 +40,28 @@ nav {
   padding-left: 1.5rem;
 }
 
-.link {
+.nav-right {
   float: right;
 }
 
-header {
+h {
   background-image: url('../images/hero.svg');
   background-repeat: no-repeat;
-  width: 100%;
 }
 
 #hero-name {
   color: #563A5F;
   font-family: 'Arkipelago', sans-serif;
-  font-size: 15rem;
-}
-
-h2 {
-  color: #080809;
+  font-size: 10rem;
 }
 
 #brackets {
   color: rgba(8, 8, 9, 0.2);
-  font-family: 'Quicksand', sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 700;
 }
 
 p {
-  color: #080809;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 120%;
 }
