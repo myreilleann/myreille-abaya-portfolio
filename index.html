@@ -9,22 +9,27 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <!-- Font Awesome -->
-    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  </head> -->
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:700" rel="stylesheet">
   </head>
 
 
   <body>
     <div class="container">
-      <nav>
-        <ul>
-          <li><a href="index.html"><img class="logo" src="images/nav-logo.svg" alt="nav-logo"></li>
+      <nav class="navbar">
+
+        <!-- Mobile Nav -->
+        <ul class="mobile-nav">
+          <li><a href="index.html"></a><img class="logo" src="images/nav-logo.svg" alt="nav-logo"></li>
+          <li class="name">myreille abaya</li>
+          <li> <img class="hamburger" src="images/hamburger.svg" alt="menu"> </li>
+
+        <!-- Full Nav -->
+        <ul class="full-nav">
+          <li><a href="index.html"></a><img class="logo" src="images/nav-logo.svg" alt="nav-logo"></li>
           <li><span class="name">myreille abaya</span>  |  ux / ui designer &amp; developer</li>
-          <div class="nav-right">
+          <div class="nav-list">
             <li><a href="#projects">projects</a></li>
             <li>|</li>
             <li><a href="resume.html" target="_blank">resume</a></li>
@@ -37,10 +42,10 @@
       </nav>
 
       <!-- Hero Unit -->
-      <main>
-        <h1 class="display-4"id="hero-name">myreille abaya</h1>
+      <main class="hero">
+        <h1 id="hero-name">myreille abaya</h1>
         <h2><span id="brackets">[</span>MY-rail<span id="brackets">]</span></h2>
-        <p class="lead slogan">
+        <p class="slogan">
           Thank you for visiting my page!
           <br>
           I’m a UX / UI Designer &amp; Developer
@@ -57,11 +62,13 @@
       </main>
 
       <!-- Projects -->
-      <section id="projects">
-        <div>
+      <section class="projects">
           <h4>my design show & tell</h4>
           <a href="project.html"><img id="px-cover" src="images/px-cover.svg" alt="project"></a>
-        </div>
+          <h1>px</h1>
+          <h4>a cloud storage for photos and videos</h4>
+          <p>research <br> branding <br> visual design</p>
+          <a href="projects.html"></a><button type="button" name="projects">tell me more</button>
       </section>
 
       <!-- Process -->
@@ -94,7 +101,7 @@
       </section>
 
       <!-- Contact, Footer -->
-      <footer>
+      <footer class="footer">
         <h3>Let's make a difference together!</h3>
         <ul>
           <li>

@@ -6,62 +6,153 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 10px;
-}
-
 body {
   background: #ECEDED;
   color: #080809;
   font-family: 'Quicksand', sans-serif;
+  font-size: 10px;
+  margin: 0 auto;
   width: 100%;
 }
 
 .container {
   display: grid;
-  grid-gap: 5rem;
-  grid-template-columns: 1fr;
-  margin: 0 auto;
-  padding: 0 3.6rem;
+  grid-gap: 2.1rem;
+  grid-template-columns: : 1fr;
+  grid-template-areas:
+  "navbar"
+  "hero"
+  "projects"
+  "process"
+  "footer"
 }
 
-nav {
-  /* height: 6.4rem; */
+
+/* nav */
+
+.navbar {
+  background-color: revised
+  grid-area: navbar;
+  /* padding: 13 32; */
   position: fixed;
+  z-index: 1;
+}
+
+.full-nav {
+  display: none;
 }
 
 .logo {
-  float: left;
+  /* height: 2.992rem; */
+  /* margin-right: 4.736rem; */
+  /* width: 3.864rem; */
 }
 
 .name {
-  color: #563A5F;
-  float: left;
-  padding-left: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
-.nav-right {
-  float: right;
+
+/* hero unit */
+
+.hero {
+  background-color: green;
+  grid-area: hero;
 }
 
-h {
-  background-image: url('../images/hero.svg');
-  background-repeat: no-repeat;
-}
 
 #hero-name {
   color: #563A5F;
   font-family: 'Arkipelago', sans-serif;
-  font-size: 10rem;
+  font-size: 6rem;
+  width: 29.9rem;
+}
+
+h2 {
+  font-family: 'Droid Sans', sans serif;
+  font-size: 3.6rem;
 }
 
 #brackets {
   color: rgba(8, 8, 9, 0.2);
-  font-size: 4rem;
-  font-weight: 700;
+  font-size: 3.6rem;
+  font-weight: 600;
 }
 
 p {
-  font-size: 2rem;
-  line-height: 120%;
+  font-size: 1.6rem;
+  line-height: 140%;
+}
+
+#down-arrow {
+  display: none;
+}
+
+
+/* projects */
+
+.projects {
+  background-color: blue;
+  grid-area: projects;
+}
+
+/* process */
+
+.process {
+  background-color: : red;
+  grid-area: process;
+}
+
+
+/* footer */
+
+.footer {
+  background-color: : yellow;
+  grid-area: footer;
+}
+
+
+/* media queries */
+
+@@media screen and {min-width: 70rem) {
+  .container {
+    grid-template-areas:
+    "navbar navbar"
+    "hero hero"
+    "projects projects"
+    "process process"
+    "footer footer"
+    grid-template-columns: 6fr 6fr;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  main {
+    background-image: url('../images/hero.svg');
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .container {
+    grid-template-areas:
+    "navbar navbar navbar"
+    ". hero ."
+    "projects projects projects"
+    ". process ."
+    "footer footer footer"
+    grid-template-columns: 2fr 8fr 2fr;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  main {
+    background-image: url('../images/hero.svg');
+    background-repeat: no-repeat;
+  }
 }
