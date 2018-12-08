@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'arkipelagoregular';
+    src: url('arkipelago-webfont.woff2') format('woff2'),
+         url('arkipelago-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   background: #ECEDED;
   color: #080809;
@@ -40,9 +48,24 @@ body {
   display: none;
 }
 
+.logo {
+  float: left;
+  width: 2.664rem;
+  height: 2.592rem;
+}
+
 .name {
+  color: #563A5F;
   font-size: 1.3rem;
   font-weight: bold;
+  width: 12.1rem;
+}
+
+.hamburger {
+  float: right;
+  width: 2.468rem;
+  height: 1.678rem;
+
 }
 
 
@@ -56,24 +79,48 @@ body {
   color: #563A5F;
   font-family: 'Arkipelago', sans-serif;
   font-size: 6rem;
-  width: 29.9rem;
+  margin-bottom: .6rem;
+  width: 27.875rem;
 }
 
 h2 {
   font-family: 'Droid Sans', sans-serif;
   font-size: 3.6rem;
-  font-weight: 600;
+  font-weight: bold;
+  margin-bottom: .6rem;
+  width: 16rem;
 }
 
 #brackets {
   color: rgba(8, 8, 9, 0.2);
   font-size: 3.6rem;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 p {
   font-size: 1.6rem;
   line-height: 140%;
+}
+
+.slogan {
+  margin-bottom: 2.1rem;
+}
+
+.slogan {
+  margin-bottom: .6rem;
+}
+
+button {
+  border: .2rem solid #563A5F;
+  width: 21.8rem;
+  height: 3.6rem;
+}
+
+.button-text {
+  background-color: transparent;
+  color: #563A5F;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: bold;
 }
 
 #down-arrow {
