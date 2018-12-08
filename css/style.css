@@ -18,7 +18,7 @@ body {
 .container {
   display: grid;
   grid-gap: 2.1rem;
-  grid-template-columns: : 1fr;
+  grid-template-columns: 1fr;
   grid-template-areas:
   "navbar"
   "hero"
@@ -31,21 +31,13 @@ body {
 /* nav */
 
 .navbar {
-  background-color: revised
   grid-area: navbar;
-  /* padding: 13 32; */
   position: fixed;
   z-index: 1;
 }
 
 .full-nav {
   display: none;
-}
-
-.logo {
-  /* height: 2.992rem; */
-  /* margin-right: 4.736rem; */
-  /* width: 3.864rem; */
 }
 
 .name {
@@ -57,10 +49,8 @@ body {
 /* hero unit */
 
 .hero {
-  background-color: green;
   grid-area: hero;
 }
-
 
 #hero-name {
   color: #563A5F;
@@ -70,14 +60,15 @@ body {
 }
 
 h2 {
-  font-family: 'Droid Sans', sans serif;
+  font-family: 'Droid Sans', sans-serif;
   font-size: 3.6rem;
+  font-weight: 600;
 }
 
 #brackets {
   color: rgba(8, 8, 9, 0.2);
   font-size: 3.6rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 p {
@@ -93,14 +84,12 @@ p {
 /* projects */
 
 .projects {
-  background-color: blue;
   grid-area: projects;
 }
 
 /* process */
 
 .process {
-  background-color: : red;
   grid-area: process;
 }
 
@@ -108,7 +97,6 @@ p {
 /* footer */
 
 .footer {
-  background-color: : yellow;
   grid-area: footer;
 }
 
