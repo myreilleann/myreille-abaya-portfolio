@@ -2,81 +2,88 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>About | Myreille Abaya</title>
+    <title>Portfolio | Myreille Abaya</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/grid/simple-grid.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:700" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
 
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
 
-
   <body>
     <div class="container">
-      <nav>
-        <ul>
-          <li><a href="index.html" target="_blank"><img class="logo" src="images/nav-logo.svg" alt="nav-logo"></li>
+      <div class="row">
+
+        <!-- Mobile Nav -->
+        <ul class="mobile-nav">
+          <li><a href="index.html"></a><img class="logo" src="images/nav-logo.svg" alt="nav-logo"></li>
+          <li class="name">myreille abaya</li>
+          <li> <img class="hamburger" src="images/hamburger.svg" alt="menu"></li>
+
+        <!-- Full Nav -->
+        <ul class="full-nav">
+          <li><a href="index.html"></a><img class="logo" src="images/nav-logo.svg" alt="nav-logo"></li>
           <li><span class="name">myreille abaya</span>  |  ux / ui designer &amp; developer</li>
-          <div class="link">
-              <li><a href="#projects" target="_blank">projects</a></li>
+          <div class="nav-list">
+            <li><a href="#projects">projects</a></li>
             <li>|</li>
             <li><a href="resume.html" target="_blank">resume</a></li>
             <li>|</li>
-          <li><a href="about.html" target="_blank">about</a></li>
+            <li><a href="about.html" target="_blank">about</a></li>
             <li>|</li>
             <li><a href="contact.html" target="_blank">contact</a></li>
-          </ul>
-        </div>
+          </div>
+        </ul>
       </nav>
 
       <!-- Bio -->
-      <article class="bio">
-        <h2>I chose to pursue a career in design to be an active participant in improving quality of life for people with disabilities and help make the world fit better for them.</h2>
-        <p>
-          I believe that in everything you do, you are showing someone what is possible. I have a physical disability and I am a mom...so that’s possible. I believe in mainstreaming disability. I also believe that my daughter is the awesomest human being I could possibly meet!
-        </p>
-        <p>
-          So what else is possible? Discovering a new passion. When my previous career as a freelance video editor was going stagnant, I realized I needed a career change. I first explored Web Development and then stumbled upon UX / UI Design. It appealed to me instantly, because it aligns with what I was already doing. I just love doing anything visual!
-        </p>
-        <p>
-          As a video editor, my job was to edit videos to tell compelling stories. The goal of video editing is not just about creating videos that are visually appealing, but also elicit emotion to create a complete experience of the story being told. And I think design has the same exact purpose. A website, for instance, doesn’t only need to be visually appealing, it also needs to elicit emotion in users and affect how they use the website and their understanding of the company’s brand.
-        </p>
-        <p>
-          As far as emotions are concerned, I recently came across a New York Times article that really resonated with me. It’s entitled, <a href="https://www.nytimes.com/2018/05/30/opinion/disability-design-lifehacks.html" target="_blank">"We Are The Original Life Hackers"</a> by Liz Jackson, founder of the The Disabled List. She writes:
-        </p>
-        <img src="images/quote.svg" alt="quotations">
-        <p>
-          Disabled people have long been integral to design processes, though we’re frequently viewed as “inspiration” rather than active participants.
-        </p>
-        <p>
-          As someone with a disability, I often feel like I don’t fit in the world. Or that the world doesn’t fit me. I chose to pursue a career in UX / UI Design to be an active participant-- as Ms. Jackson puts it-- to play a role in improving quality of life for people with disabilities like me, and help make the world fit better for them. I provide a unique perspective and insight to the design process, because I have been hacking my way through life and figuring out ways to function in a world that doesn’t seem to be designed for me. Limitations fail to limit me from having something to bring to the table.
-        </p>
-        <p>
-          When it comes down to it, great designs eradicate limitations Just like interfaces have several features that can either be enabled or disabled, I believe that designers can have tremendous impact by designing products that enable much of the world’s features that are currently disabled for many. Technology has made countless things possible and through technology, I would like to be involved in helping both able and disabled people experience the world better and designing more possibilities for them. Perhaps, it would also shift mindsets and create more open minds along the way. I intend to show others that these things are possible.
-        </p>
-        <img src="" alt="">
+      <article>
+        <section class="bio-title">
+          <h3>I chose to pursue a career in design to be an active participant in improving quality of life for people with disabilities and help make the world fit better for them.</h3>
+        </section>
+        <section>
+          <img class="myphoto" src="" alt="">
+        </section>
+        <section class="bio col-8">
+          <p>
+            I believe that in everything you do, you are showing someone what is possible. I have a physical disability and I am a mom...so that’s possible. I believe in mainstreaming disability. I also believe that my daughter is the awesomest human being I could possibly meet!
+          </p>
+          <p>
+            So what else is possible? Discovering a new passion. When my previous career as a freelance video editor was going stagnant, I realized I needed a career change. I first explored Web Development and then stumbled upon UX / UI Design. It appealed to me instantly, because it aligns with what I was already doing. I just love doing anything visual!
+          </p>
+          <p>
+            As a video editor, my job was to edit videos to tell compelling stories. The goal of video editing is not just about creating videos that are visually appealing, but also elicit emotion to create a complete experience of the story being told. And I think design has the same exact purpose. A website, for instance, doesn’t only need to be visually appealing, it also needs to elicit emotion in users and affect how they use the website and their understanding of the company’s brand.
+          </p>
+          <p>
+            As far as emotions are concerned, I recently came across a New York Times article that really resonated with me. It’s entitled, <a href="https://www.nytimes.com/2018/05/30/opinion/disability-design-lifehacks.html" target="_blank">"We Are The Original Life Hackers"</a> by Liz Jackson, founder of the The Disabled List. She writes:
+          </p>
+          <img class="quotes" src="images/quote.svg" alt="quotations">
+          <p>
+            Disabled people have long been integral to design processes, though we’re frequently viewed as “inspiration” rather than active participants.
+          </p>
+          <p>
+            As someone with a disability, I often feel like I don’t fit in the world. Or that the world doesn’t fit me. I chose to pursue a career in UX / UI Design to be an active participant-- as Ms. Jackson puts it-- to play a role in improving quality of life for people with disabilities like me, and help make the world fit better for them. I provide a unique perspective and insight to the design process, because I have been hacking my way through life and figuring out ways to function in a world that doesn’t seem to be designed for me. Limitations fail to limit me from having something to bring to the table.
+          </p>
+          <p>
+            When it comes down to it, great designs eradicate limitations Just like interfaces have several features that can either be enabled or disabled, I believe that designers can have tremendous impact by designing products that enable much of the world’s features that are currently disabled for many. Technology has made countless things possible and through technology, I would like to be involved in helping both able and disabled people experience the world better and designing more possibilities for them. Perhaps, it would also shift mindsets and create more open minds along the way. I intend to show others that these things are possible.
+          </p>
+        </section>
       </article>
 
       <!-- Contact, Footer -->
-      <footer>
-        <h3>Let's make a difference together!</h3>
-        <ul>
-          <li>
-            <img src="images/linkedin.svg" alt="linkedin">
-          </li>
-          <li>
-            <img src="images/github.svg" alt="github">
-          </li>
-          <li>
-            <img src="images/email.svg" alt="email">
-          </li>
-        </ul>
-        <p>© 2018 myrelle abaya  |  designed & developed by myreille abaya</p>
+      <footer class="footer">
+        <p class="copyright">© 2018 myrelle abaya  |  designed & developed by myreille abaya</p>
       </footer>
     </div>
-
+  </div>
   </body>
 </html>

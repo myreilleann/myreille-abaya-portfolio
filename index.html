@@ -7,17 +7,22 @@
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/grid/simple-grid.css">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:700" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
 
 
   <body>
     <div class="container">
+      <div class="row">
       <nav class="navbar">
 
         <!-- Mobile Nav -->
@@ -27,10 +32,9 @@
           <li> <img class="hamburger" src="images/hamburger.svg" alt="menu"></li>
 
         <!-- Full Nav -->
-        <ul class="full-nav">
+        <ul class="full-nav hidden-sm">
           <li><a href="index.html"></a><img class="logo" src="images/nav-logo.svg" alt="nav-logo"></li>
           <li><span class="name">myreille abaya</span>  |  ux / ui designer &amp; developer</li>
-          <div class="nav-list">
             <li><a href="#projects">projects</a></li>
             <li>|</li>
             <li><a href="resume.html" target="_blank">resume</a></li>
@@ -38,14 +42,13 @@
             <li><a href="about.html" target="_blank">about</a></li>
             <li>|</li>
             <li><a href="contact.html" target="_blank">contact</a></li>
-          </div>
         </ul>
       </nav>
 
       <!-- Hero Unit -->
       <main class="hero">
-        <h1 id="hero-name">myreille abaya</h1>
-        <h2><span id="brackets">[</span>MY-rail<span id="brackets">]</span></h2>
+        <p id="hero-name">myreille abaya</p>
+        <h1><span id="brackets">[</span>MY-rail<span id="brackets">]</span></h1>
         <p class="slogan">
           Thank you for visiting my page!
           I’m a <span><strong>UX / UI Designer &amp; Developer</strong></span>
@@ -61,27 +64,29 @@
 
       <!-- Projects -->
       <section class="projects">
-        <h4>my design show & tell</h4>
+        <h3>my design show & tell</h3>
         <a href="project.html"><img id="px-cover" src="images/px-cover.svg" alt="project"></a>
-        <h2>px</h2>
-        <h5>a cloud storage for photos and videos</h5>
+        <h1>px</h1>
+        <h4>a cloud storage for photos and videos</h4>
         <p>research <br> branding <br> visual design</p>
         <a href="project.html"></a><button type="button" name="projects"> <p class="button-text">tell me more</p></button>
       </section>
 
       <!-- Process -->
-      <section class="process">
-        <h4>my design philosophy</h4>
-        <h5>I think outside the box.</h5>
+      <section class="process-homepage">
+        <h3>my design philosophy</h3>
+        <div>
+        <h4>I think outside the box.</h4>
         <p>I practice divergent thinking and start
            projects with a blank slate. From there, I
            inspire users to come up with the answers
            on their own, instead of relying on my
            intuition..
         </p>
+      </div>
         <img id="outside-box" src="images/outside-box.svg" alt="illustration">
         <img id="accessible"src="images/accessibility.svg" alt="illustration">
-        <h5>I advocate inclusive design.</h5>
+        <h4>I advocate inclusive design.</h4>
         <p>I believe technology creates many
           possibilities. My goal is to enforce
           inclusive design to ensure that these
@@ -92,8 +97,8 @@
 
       <!-- Contact, Footer -->
       <footer class="footer">
-        <h3>Let's make a difference together!</h3>
-        <ul>
+        <h2>Let's make a difference together!</h2>
+        <ul class="contact-icons">
           <li>
             <a href="https://www.linkedin.com/in/myreille-abaya/"></a>
             <img id="linkedin" src="images/linkedin.svg" alt="linkedin">
@@ -107,8 +112,9 @@
             <img id="email" src="images/email.svg" alt="email">
           </li>
         </ul>
-        <p>© 2018 myrelle abaya  |  designed & developed by myreille abaya</p>
+        <p class="copyright">© 2018 myrelle abaya  |  designed & developed by myreille abaya</p>
       </footer>
     </div>
+   </div>
   </body>
 </html>

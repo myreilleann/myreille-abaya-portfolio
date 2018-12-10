@@ -19,11 +19,11 @@ body {
   color: #080809;
   font-family: 'Quicksand', sans-serif;
   font-size: 10px;
-  margin: 0 auto;
-  width: 100%;
+  /* margin: 0 auto;
+  width: 100%; */
 }
 
-.container {
+/* .container-homepage {
   display: grid;
   grid-gap: 2.1rem;
   grid-template-columns: 1fr;
@@ -31,15 +31,38 @@ body {
   "navbar"
   "hero"
   "projects"
-  "process"
-  "footer"
+  "process-homepage"
+  "footer";
 }
 
+.container-about {
+  display: grid;
+  grid-gap: 2.1rem;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "navbar"
+  "bio-title"
+  "myphoto"
+  "bio"
+  "footer";
+}
+
+.container-px {
+  display: grid;
+  grid-gap: 2.1rem;
+  /* grid-template-columns: 1fr; */
+  grid-template-areas:
+  "navbar"
+  "title"
+  "local-nav"
+  "process-px"
+  "footer";
+} */
 
 /* nav */
 
 .navbar {
-  grid-area: navbar;
+  /* grid-area: navbar; */
   position: fixed;
   z-index: 1;
 }
@@ -50,44 +73,39 @@ body {
 
 .logo {
   float: left;
-  width: 2.664rem;
-  height: 2.592rem;
 }
 
 .name {
   color: #563A5F;
   font-size: 1.3rem;
   font-weight: bold;
-  width: 12.1rem;
 }
 
 .hamburger {
   float: right;
-  width: 2.468rem;
-  height: 1.678rem;
-
 }
 
 
 /* hero unit */
 
 .hero {
-  grid-area: hero;
+  background-image: url(images/monogram.svg);
+  /* grid-area: hero; */
 }
 
 #hero-name {
   color: #563A5F;
   font-family: 'Arkipelago', sans-serif;
   font-size: 6rem;
-  margin-bottom: .6rem;
-  width: 25rem;
+  /* margin-bottom: .6rem; */
 }
 
-h2 {
+h1 {
   font-family: 'Droid Sans', sans-serif;
   font-size: 3.6rem;
   font-weight: bold;
-  margin-bottom: .6rem;
+  line-height: 140%;
+  /* margin-bottom: .6rem; */
 }
 
 #brackets {
@@ -99,23 +117,14 @@ h2 {
 p {
   font-size: 1.6rem;
   line-height: 140%;
-  width: 25rem;
 }
 
-.slogan {
+/* .slogan {
   margin-bottom: 2.1rem;
-  width: 25rem;;
-}
-
-.slogan2 {
-  width: 25rem;
-}
+} */
 
 button {
   border: .2rem solid #563A5F;
-  margin-top: 1rem;
-  width: 21.8rem;
-  height: 3.6rem;
 }
 
 .button-text {
@@ -132,48 +141,119 @@ button {
 
 /* projects */
 
-.projects {
+/* .projects {
   grid-area: projects;
-}
+} */
 
-h4 {
+h3 {
   border-top: .5rem solid rgba(86, 58, 95, 0.1);
   border-bottom: .5rem solid rgba(86, 58, 95, 0.1);
   font-family: 'Droid Sans', sans-serif;
   font-weight: bold;
   font-size: 2.8rem;
   line-height: 140%;
-  margin: 4.6rem 0;
-  text-align: center;
-  width: 17rem;
+  /* margin: 4.6rem 0; */
 }
 
-img {
-  margin-bottom: 2.1rem;
-  max-width: 100%;
+/* img {
+  margin-bottom: 2.1rem; */
+  /* position: fixed; */
+  /* z-index: -1; */
 }
 
-h5 {
+h4 {
   font-size: 2.4rem;
+  font-weight: bold;
   line-height: 140%;
-  margin-top: .6rem;
-  margin-bottom: 1.1rem;
-  width: 25rem;
+  /* margin-top: .6rem;
+  margin-bottom: 1.1rem; */
 }
 
 /* process */
 
-.process {
+/* .process {
   grid-area: process;
-}
+} */
 
 
 /* footer */
 
-.footer {
-  grid-area: footer;
+footer {
+  background-color: #080809;
 }
 
+/* .footer {
+  grid-area: footer;
+} */
+
+h2 {
+  color: #ECEDED;
+  font-size: 3.2rem;
+  font-weight: bold;
+  line-height: 140%;
+  /* margin-bottom: 2.1rem;
+  margin-top: 2.1rem; */
+}
+
+
+#linkedin, #github, #email {
+  float: left;
+  /* margin-left: 4.6rem; */
+}
+
+.copyright {
+  background-color: #080809;
+  border-top: 3px solid rgba(236, 237, 237, 0.2);
+  color: #ECEDED;
+  /* float: left; */
+  font-size: 1.1rem;
+  font-weight: bold;
+  /* padding-bottom: 2.6rem;
+  padding-top: 2.6rem; */
+}
+
+
+/* bio */
+
+/* .bio-title {
+  grid-area: .bio-title;
+}
+
+.myphoto {
+  grid-area: .myphoto;
+}
+
+.bio {
+  grid-area: .bio;
+} */
+
+
+/* px case study */
+
+.title {
+  background-color: #080809;
+  color: #ECEDED;
+  /* grid-area: .title; */
+}
+
+.px {
+  font-size: 8rem;
+  font-weight: bold;
+  /* margin-bottom: .6rem; */
+}
+
+.local-nav {
+  display: none;
+  /* grid-area: .local-nav; */
+}
+
+/* .process-px {
+  grid-area: .process-px;
+} */
+
+.list {
+  list-style: square;
+}
 
 /* media queries */
 
@@ -204,8 +284,8 @@ h5 {
     "navbar navbar navbar"
     ". hero ."
     "projects projects projects"
-    ". process ."
-    "footer footer footer"
+    ". process-homepage ."
+    "footer footer footer";
     grid-template-columns: 2fr 8fr 2fr;
   }
 
@@ -217,4 +297,11 @@ h5 {
     background-image: url('../images/hero.svg');
     background-repeat: no-repeat;
   }
+}
+
+
+/* about */
+.quotes {
+  width: 2.6rem;
+  height: 1.743px;
 }
