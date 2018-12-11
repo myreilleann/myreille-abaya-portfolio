@@ -63,22 +63,30 @@ body {
 
 .navbar {
   /* grid-area: navbar; */
+  display: block;
   position: fixed;
+  top: 0;
+  width: 100%;
   z-index: 1;
 }
 
-.full-nav {
-  display: none;
+.full-nav li {
+  float: left;
 }
 
 .logo {
   float: left;
+  margin-right: 1.5rem;
 }
 
 .name {
   color: #563A5F;
   font-size: 1.3rem;
   font-weight: bold;
+}
+
+.right {
+  float: right;
 }
 
 .hamburger {
@@ -88,6 +96,10 @@ body {
 
 /* hero unit */
 
+main {
+  float: left;
+}
+
 .hero {
   background-image: url(images/monogram.svg);
   /* grid-area: hero; */
@@ -96,7 +108,7 @@ body {
 #hero-name {
   color: #563A5F;
   font-family: 'Arkipelago', sans-serif;
-  font-size: 6rem;
+  font-size: 10rem;
   /* margin-bottom: .6rem; */
 }
 
@@ -141,6 +153,10 @@ button {
 
 /* projects */
 
+section {
+  float: left;
+}
+
 /* .projects {
   grid-area: projects;
 } */
@@ -155,10 +171,11 @@ h3 {
   /* margin: 4.6rem 0; */
 }
 
-/* img {
-  margin-bottom: 2.1rem; */
+img {
+  width: 100%;
+  /* margin-bottom: 2.1rem; */ */
   /* position: fixed; */
-  /* z-index: -1; */
+  /* z-index: -1;
 }
 
 h4 {
@@ -180,6 +197,7 @@ h4 {
 
 footer {
   background-color: #080809;
+  float: left;
 }
 
 /* .footer {
