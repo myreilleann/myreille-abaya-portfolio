@@ -18,7 +18,7 @@ body {
   background: #ECEDED;
   color: #080809;
   font-family: 'Quicksand', sans-serif;
-  font-size: 10px;
+  font-size: 16px;
   /* margin: 0 auto;
   width: 100%; */
 }
@@ -63,26 +63,29 @@ body {
 
 .navbar {
   /* grid-area: navbar; */
-  display: block;
+  /* display: flex; */
   position: fixed;
-  top: 0;
-  width: 100%;
   z-index: 1;
 }
 
-.full-nav li {
-  float: left;
+.full-nav {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
   float: left;
-  margin-right: 1.5rem;
+  margin-right: .9375rem;
+}
+
+.left {
+  float: left;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 
 .name {
   color: #563A5F;
-  font-size: 1.3rem;
-  font-weight: bold;
 }
 
 .right {
@@ -108,7 +111,7 @@ main {
 #hero-name {
   color: #563A5F;
   font-family: 'Arkipelago', sans-serif;
-  font-size: 10rem;
+  font-size: 9rem;
   /* margin-bottom: .6rem; */
 }
 
@@ -171,8 +174,7 @@ h3 {
   /* margin: 4.6rem 0; */
 }
 
-img {
-  width: 100%;
+/* img { */
   /* margin-bottom: 2.1rem; */ */
   /* position: fixed; */
   /* z-index: -1;
