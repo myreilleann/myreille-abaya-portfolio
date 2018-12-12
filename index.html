@@ -21,9 +21,9 @@
 
 
   <body>
-    <div class="container">
+    <div class="container col-12">
       <div class="row">
-      <nav class="navbar">
+        <nav class="navbar">
 
         <!-- Mobile Nav -->
         <!-- <ul class="mobile-nav">
@@ -32,90 +32,97 @@
           <li> <img class="hamburger" src="images/hamburger.svg" alt="menu"></li>
         </ul> -->
 
-        <!-- Full Nav -->
-        <ul class="full-nav hidden-sm">
-          <li><a href="index.html"></a><img class="logo" src="images/nav-logo.svg" alt="nav-logo"></li>
-          <li class="left"><span class="name">myreille abaya</span> | ux/ui designer &amp; developer</li>
-          <div class="right">
-            <li><a href="#projects">projects</a></li>
-            <li>|</li>
-            <li><a href="resume.html" target="_blank">resume</a></li>
-            <li>|</li>
-            <li><a href="about.html" target="_blank">about</a></li>
-            <li>|</li>
-            <li><a href="contact.html" target="_blank">contact</a></li>
+          <!-- Full Nav -->
+          <ul class="full-nav hidden-sm">
+            <li><a href="index.html"><img class="logo" src="images/nav-logo.svg" alt="nav-logo"></a></li>
+            <li class="left"><span class="name">myreille abaya</span> | ux/ui designer &amp; developer</li>
+            <div class="right">
+              <li><a href="#projects">projects</a></li>
+              <li>|</li>
+              <li><a href="resume.html" target="_blank">resume</a></li>
+              <li>|</li>
+              <li><a href="about.html" target="_blank">about</a></li>
+              <li>|</li>
+              <li><a href="contact.html" target="_blank">contact</a></li>
+            </div>
+          </ul>
+        </nav>
+
+        <!-- Hero Unit -->
+        <main class="hero">
+          <p id="hero-name">myreille abaya</p>
+          <h1><span id="brackets">[</span>MY-rail<span id="brackets">]</span></h1>
+          <p class="slogan">
+            Thank you for visiting my page!
+            I’m a
+            <strong>UX / UI Designer &amp; Developer</strong>
+            in Dallas, TX.
+          </p>
+          <p class="slogan2">
+            My designs combine high-tech functionality
+            with human sensibility.
+          </p>
+          <a href="#projects"><button type="button" name="projects"><p class="button-text">check out my work</p></button></a>
+          <img id="down-arrow hidden-sm" src="images/down-arrow.svg" alt="down-arrow">
+        </main>
+
+        <!-- Projects -->
+        <section class="projects">
+          <h3>my design show &amp; tell</h3>
+          <a href="project.html" target="_blank"><img id="px-cover" src="images/px-cover.svg" alt="project"></a>
+          <!-- <h1>px</h1>
+          <h4>a cloud storage for photos and videos</h4>
+          <p>research <br> branding <br> visual design</p>
+          <a href="project.html" target="_blank"></a><button type="button" name="projects"> <p class="button-text">tell me more</p></button> -->
+        </section>
+
+        <!-- Process -->
+        <section class="process-homepage">
+          <h3>my design philosophy</h3>
+          <div class="col-6">
+            <h4>I think outside the box.</h4>
+            <p>I practice divergent thinking and start
+               projects with a blank slate. From there, I
+               inspire users to come up with the answers
+               on their own, instead of relying on my
+               intuition..
+            </p>
           </div>
-        </ul>
-      </nav>
+          <div class="col-6">
+            <img id="outside-box" src="images/outside-box.svg" alt="illustration">
+          </div>
+          <div class="col-6">
+            <img id="accessible"src="images/accessibility.svg" alt="illustration">
+          </div>
+          <div class="col-6">
+            <h4>I advocate inclusive design.</h4>
+            <p>I believe technology creates many
+              possibilities. My goal is to enforce
+              inclusive design to ensure that these
+              possibilities are universally accessible,
+              not limited to certain groups of people.
+            </p>
+          </div>
+          </section>
 
-      <!-- Hero Unit -->
-      <main class="hero">
-        <p id="hero-name">myreille abaya</p>
-        <h1><span id="brackets">[</span>MY-rail<span id="brackets">]</span></h1>
-        <p class="slogan">
-          Thank you for visiting my page!
-          I’m a <span><strong>UX / UI Designer &amp; Developer</strong></span>
-          in Dallas, TX.
-        </p>
-        <p class="slogan2">
-          My designs combine high-tech functionality
-          with human sensibility.
-        </p>
-        <a href="#projects"><button type="button" name="projects"><p class="button-text">check out my work</p></button></a>
-        <img id="down-arrow" src="images/down-arrow.svg" alt="down-arrow">
-      </main>
-
-      <!-- Projects -->
-      <section class="projects">
-        <h3>my design show & tell</h3>
-        <a href="project.html"><img id="px-cover" src="images/px-cover.svg" alt="project"></a>
-        <h1>px</h1>
-        <h4>a cloud storage for photos and videos</h4>
-        <p>research <br> branding <br> visual design</p>
-        <a href="project.html"></a><button type="button" name="projects"> <p class="button-text">tell me more</p></button>
-      </section>
-
-      <!-- Process -->
-      <section class="process-homepage">
-        <h3>my design philosophy</h3>
-        <div>
-        <h4>I think outside the box.</h4>
-        <p>I practice divergent thinking and start
-           projects with a blank slate. From there, I
-           inspire users to come up with the answers
-           on their own, instead of relying on my
-           intuition..
-        </p>
-      </div>
-        <img id="outside-box" src="images/outside-box.svg" alt="illustration">
-        <img id="accessible"src="images/accessibility.svg" alt="illustration">
-        <h4>I advocate inclusive design.</h4>
-        <p>I believe technology creates many
-          possibilities. My goal is to enforce
-          inclusive design to ensure that these
-          possibilities are universally accessible,
-          not limited to certain groups of people.
-        </p>
-      </section>
-
-      <!-- Contact, Footer -->
-      <footer class="footer">
+      <!-- Contact -->
+      <section class="contact">
         <h2>Let's make a difference together!</h2>
         <ul class="contact-icons">
           <li>
-            <a href="https://www.linkedin.com/in/myreille-abaya/"></a>
-            <img id="linkedin" src="images/linkedin.svg" alt="linkedin">
+            <a href="https://www.linkedin.com/in/myreille-abaya/" target="_blank"><img id="linkedin" src="images/linkedin.svg" alt="linkedin"></a>
           </li>
           <li>
-            <a href="https://github.com/myreilleann"></a>
-            <img id="github" src="images/github.svg" alt="github">
+            <a href="https://github.com/myreilleann" target="_blank"><img id="github" src="images/github.svg" alt="github"></a>
           </li>
           <li>
-            <a href="contact.html"></a>
-            <img id="email" src="images/email.svg" alt="email">
+            <a href="contact.html" target="_blank>"<img id="email" src="images/email.svg" alt="email"></a>
           </li>
         </ul>
-        <p class="copyright">© 2018 myrelle abaya  |  designed & developed by myreille abaya</p>
+      </section>
+
+      <footer class="footer">
+        <p class="copyright">© 2018 myrelle abaya | designed & developed by myreille abaya</p>
       </footer>
     </div>
    </div>
