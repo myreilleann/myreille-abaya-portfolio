@@ -8,15 +8,13 @@
     <!-- Custom Styles -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid/simple-grid.css">
+    <link href="css/hover.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:700" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
-
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
 
 
@@ -37,13 +35,13 @@
             <li><a href="index.html"><img class="logo" src="images/nav-logo.svg" alt="nav-logo"></a></li>
             <li class="left"><span class="name">myreille abaya</span> | ux/ui designer &amp; developer</li>
             <div class="right">
-              <li><a href="#projects">projects</a></li>
+              <li><a class="hvr-underline-from-left" href="#projects">projects</a></li>
               <li>|</li>
-              <li><a href="resume.html" target="_blank">resume</a></li>
+              <li><a class="hvr-underline-from-left" href="resume.html" target="_blank">resume</a></li>
               <li>|</li>
-              <li><a href="about.html" target="_blank">about</a></li>
+              <li><a class="hvr-underline-from-left" href="about.html" target="_blank">about</a></li>
               <li>|</li>
-              <li><a href="contact.html" target="_blank">contact</a></li>
+              <li><a class="hvr-underline-from-left" href="contact.html" target="_blank">contact</a></li>
             </div>
           </ul>
         </nav>
@@ -52,7 +50,6 @@
         <main class="hero">
           <p class="col-9" id="hero-name">myreille abaya</p>
           <h1 class="my-rail"><span id="brackets">[</span>MY-rail<span id="brackets">]</span></h1>
-            <!-- <div class="col-8"> -->
             <h4 class="slogan col-8">
               Thank you for visiting my page!
               I’m a
@@ -63,15 +60,14 @@
               My designs combine high-tech functionality
               with human sensibility.
             </h4>
-            <a href="#projects"><button class="mb-113"type="button" name="projects"><p class="button-text">check out my work</p></button></a>
-          <!-- </div> -->
+            <a href="#projects"><button class="mb-113 hvr-sweep-to-right"type="button" name="projects"><p class="button-text">check out my work</p></button></a>
           <div>
-          <img id="down-arrow hidden-sm" src="images/down-arrow.svg" alt="down-arrow">
-        </div>
+            <img id="down-arrow hidden-sm" src="images/down-arrow.svg" alt="down-arrow">
+          </div>
         </main>
 
         <!-- Projects -->
-        <section class="projects">
+        <section id="projects">
           <h3 class="mb-100 col-8">my design show &amp; tell</h3>
           <a href="project.html" target="_blank"><img id="px-cover" src="images/px-cover.svg" alt="project"></a>
           <!-- <h1>px</h1>

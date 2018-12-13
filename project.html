@@ -8,6 +8,7 @@
     <!-- Custom Styles -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid/simple-grid.css">
+    <link href="css/hover.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Fonts -->
@@ -32,25 +33,26 @@
           <li> <img class="hamburger" src="images/hamburger.svg" alt="menu"></li>
         </ul> -->
 
+
           <!-- Full Nav -->
           <ul class="full-nav hidden-sm">
-            <li><a href="index.html"><img class="logo" src="images/nav-logo.svg" alt="nav-logo"></a></li>
+            <li><a href="index.html" target="_blank"><img class="logo" src="images/nav-logo.svg" alt="nav-logo"></a></li>
             <li class="left"><span class="name">myreille abaya</span> | ux/ui designer &amp; developer</li>
             <div class="right">
-              <li><a href="#projects">projects</a></li>
+              <li><a class="hvr-underline-from-left" href="index.html#projects" target="_blank">projects</a></li>
               <li>|</li>
-              <li><a href="resume.html" target="_blank">resume</a></li>
+              <li><a class="hvr-underline-from-left" href="resume.html" target="_blank">resume</a></li>
               <li>|</li>
-              <li><a href="about.html" target="_blank">about</a></li>
+              <li><a class="hvr-underline-from-left" href="about.html" target="_blank">about</a></li>
               <li>|</li>
-              <li><a href="contact.html" target="_blank">contact</a></li>
+              <li><a class="hvr-underline-from-left" href="contact.html" target="_blank">contact</a></li>
             </div>
           </ul>
         </nav>
 
       <!-- Title -->
       <main class="title">
-        <img class="case-hero" src="images/case-hero2.svg" alt="case-hero">
+        <img class="case-hero case-img" src="images/case-hero2.svg" alt="case-hero">
         <p class="px">PX</p>
         <h1>A Case Study on
             <br>
@@ -64,21 +66,22 @@
       <!-- Local Nav -->
       <nav class="local-nav">
         <ul>
-          <li><a href="#research">research</a></li>
+          <li><a class="hvr-underline-from-left" href="#research">research</a></li>
           <li>|</li>
-          <li><a href="#ia">information architecture</a></li>
+          <li><a class="hvr-underline-from-left" href="#ia">information architecture</a></li>
           <li>|</li>
-          <li><a href="visual">visual design</a></li>
+          <li><a class="hvr-underline-from-left" href="#visual">visual design</a></li>
           <li>|</li>
-          <li><a href="conclusion">conclusion</a></li>
+          <li><a class="hvr-underline-from-left" href="#reflections">reflections</a></li>
           <li>|</li>
-          <li><a href="https://xd.adobe.com/view/368a7a9f-5bca-45d0-751c-1ec60ea7056f-40bb/" target="_blank">prototype</a></li>
+          <li><a class="hvr-underline-from-left" href="https://xd.adobe.com/view/368a7a9f-5bca-45d0-751c-1ec60ea7056f-40bb/" target="_blank">prototype</a></li>
         </ul>
       </nav>
 
       <!-- Process -->
-    <section class="process-px">
-      <h2>PREMISE</h2>
+    <section class="process-px" id="research">
+      <h2 >PREMISE</h2>
+      <div class="col-8">
       <p>
         Most cloud storage apps in the market attempt to do everything and store all file types. PX is a cloud storage service that only stores photos and videos, because personal expression deserves its own space.
       </p>
@@ -161,12 +164,14 @@
         </li>
       <ul/>
       <h3>COMPETITIVE ANALYSIS</h3>
+    </div>
       <figure>
-        <img src="images/companies.svg" alt="companies">
+        <img class="case-img" src="images/companies.svg" alt="companies">
         <figcaption>
           <a href="https://app.xtensio.com/r1k4vqsi" target="_blank">View Competitive Analysis</a><caption></caption>
         </figcaption>
       </figure>
+        <div class="col-8">
       <h4>Goals</h4>
       <ul>
         <li>
@@ -203,15 +208,17 @@
         </ul>
       </ul>
       <h3>USER SURVEYS</h3>
-      <img src="images/survey-1.svg" alt="people-graphic">
+    </div>
+      <img class="case-img" src="images/survey-1.svg" alt="people-graphic">
       <h4>Most use cloud storage for backup, file syncing, and real-time collaboration</h4>
-      <img src="images/survey-2.svg" alt="people-graphic">
+      <img class="case-img" src="images/survey-2.svg" alt="people-graphic">
       <h4>62% think being able to store large files is very important</h4>
-      <img src="images/survey-3.svg" alt="people-graphic">
+      <img class="case-img" src="images/survey-3.svg" alt="people-graphic">
       <h4>29% described themselves as creative</h4>
-      <img src="images/survey-3.svg" alt="people-graphic">
+      <img class="case-img" src="images/survey-3.svg" alt="people-graphic">
       <h4>29% work in technology</h4>
       <a href="https://goo.gl/forms/bz640BMGtKVD51IY2" target="_blank">View User Survey</a>
+        <div class="col-8">
       <h4>Goals</h4>
       <ul>
         <li>
@@ -231,15 +238,19 @@
         </li>
       </ul>
       <h3>USER PERSONAS</h3>
-      <img src="images/personas-2.svg" alt="personas">
+    </div>
+      <img class="case-img" src="images/personas-2.svg" alt="personas">
+        <div class="col-8">
       <h3>USER STORIES & USER FLOWS</h3>
-      <img src="images/flows.svg" alt="flows">
+    </div>
+      <img class="case-img" src="images/flows.svg" alt="flows">
       <a href="https://docs.google.com/document/d/13Jgi0bMrpFEA4gHfKr9JYsm3LkhfQp84bhd55cbYql8/edit?usp=sharing" target="_blank">View User Stories and User Flows</a>
       <h4>Onboarding Flow</h4>
       <video width="320" height="240" controls>
         <source src="onboarding-video.mp4" type="video/mp4">
         <source src="onboarding-video.ogg" type="video/ogg">
       </video>
+        <div class="col-8">
       <ul>
         <h4>Goals</h4>
         <li>
@@ -249,21 +260,27 @@
           Once I come up with a flow, narrow it down even more to make each task take only two clicks at most to complete.
         </li>
       </ul>
-      <h2>INFORMATION ARCHITECTURE</h2>
+      <h2 id="ia">INFORMATION ARCHITECTURE</h2>
       <h3>CONTENT STRATEGY</h3>
-      <img src="images/sitemap-2.svg" alt="sitemap">
+    </div>
+      <img class="case-img" src="images/sitemap-2.svg" alt="sitemap">
       <a href="https://drive.google.com/file/d/1x43hGUMAS3b0NdiiMxF1a_TWv9H1iQ6c/view?usp=sharing" target="_blank">View Sitemap</a>
+        <div class="col-8">
       <h3>WIREFRAMES</h3>
-      <img src="images/wireframes.svg" alt="wireframes">
+    </div>
+      <img class="case-img" src="images/wireframes.svg" alt="wireframes">
       <p>
         Another first! This was my first time using Adobe XD, Although it’s very similar to Figma, which I’ve used, there was still a little bit of a learning curve.
       </p>
+        <div class="col-8">
       <h3>USABILY TEST, PART 1</h3>
-      <img src="images/test-1.svg" alt="wireframes">
+    </div>
+      <img class="case-img" src="images/test-1.svg" alt="wireframes">
       <caption>BEFORE</caption>
-      <img src="images/test-2.svg" alt="mockups">
+      <img class="case-img" src="images/test-2.svg" alt="mockups">
       <caption>AFTER</caption>
       <a href="https://docs.google.com/document/d/1frB8QlMHnciiLnW2KeEhoQh9iApPCBgZk9ldA0KHzBI/edit?usp=sharing" target="_blank">View Script and Notes (Test 1)</a>
+        <div class="col-8">
       <p>
         My goal was to make sure that I test both tech-savvy and not tech-savvy users to have a holistic and well-balanced research. This is because I think there’s valuable knowledge to be gained from either group. Tech-savvy users mostly know what they want from the apps they use and they could tell if your app can be more advanced, like having smart tags. Whereas users who are not tech-savvy can more easily determine if my app is just too hard to use. Tech-savvy users are more likely able to figure out how to use a difficult design, while non tech-savvy users won’t be able to and will be quick to let me know if they can’t complete a task.
       </p>
@@ -279,24 +296,8 @@
           Shared folder in close proximity to the Share button can be confusing.
         </li>
       </ul>
-      <h2>VISUAL DESIGN</h2>
+      <h2 id="visual">VISUAL DESIGN</h2>
       <h3>BRANDING</h3>
-      <img src="images/moodboard.svg" alt="moodboard">
-      <p>
-        Purple color palette - both sophisticated and whimsical. Modern, but warm and inviting.
-      </p>
-      <img src="images/font.svg" alt="font">
-      <img src="images/icons.svg" alt="icons">
-      <p>
-        Rounded and friendly
-      </p>
-      <p>
-        Customized icons complement minimal interface
-      </p>
-      <img src="images/people-images.svg" alt="people-images">
-      <p>
-        Since PX is about personalization, all images will have people in it. Overall, the design will be invisible so that all the photos and videos users upload will be centerstage.
-      </p>
       <h4>Brand Story</h4>
       <p>
         PX is a cloud storage service that can best be described as technology with a human touch. It has sky-high functionality and down-to-earth feel.
@@ -313,28 +314,45 @@
       <p>
         So onto the second iteration: “Aspxts”, in reference to “aspect ratio”, which is a word both photo/video professionals and enthusiasts would be familiar with. This name also didn’t work out, because some users I tested weren’t able to get that’s it’s really the word “aspects”.
       </p>
+    </div>
+      <img class="case-img" src="images/moodboard.svg" alt="moodboard">
+      <p>
+        Purple color palette - both sophisticated and whimsical. Modern, but warm and inviting.
+      </p>
+      <img class="case-img" src="images/font.svg" alt="font">
+      <img class="case-img" src="images/icons.svg" alt="icons">
+      <p>
+        Rounded and friendly
+      </p>
+      <p>
+        Customized icons complement minimal interface
+      </p>
+      <img class="case-img" src="images/people-images.svg" alt="people-images">
+      <p>
+        Since PX is about personalization, all images will have people in it. Overall, the design will be invisible so that all the photos and videos users upload will be centerstage.
+      </p>
       <h4>LOGO</h4>
-      <img src="images/logo-versions.svg" alt="logo-versions">
+      <img class="" src="images/logo-versions.svg" alt="logo-versions">
       <p>
         The logo went through even more iterations, as it updated along with the brand name. I realized I didn’t quite fully grasp the purpose of a logo so I went back to my research and proceeded to sketch new ideas.
       </p>
-      <img src="images/style-guide.svg" alt="style-guide">
+      <img case-img src="images/style-guide.svg" alt="style-guide">
       <h3>MOCKUPS & PROTOTYPE</h3>
-      <img src="images/landing-iterations.svg" alt="landing-iterations">
-      <img src="images/onboarding-iterations.svg" alt="onbaording-iterations">
-      <img src="images/dash-iterations.svg" alt="dash-iterations">
-      <img src="images/mockups.svg" alt="mockups.svg">
-      <img src="images/dash-mobile.svg" alt="dash-mobile">
+      <img class="case-img" src="images/landing-iterations.svg" alt="landing-iterations">
+      <img class="case-img" src="images/onboarding-iterations.svg" alt="onbaording-iterations">
+      <img class="case-img" src="images/dash-iterations.svg" alt="dash-iterations">
+      <img class="case-img" src="images/mockups.svg" alt="mockups.svg">
+      <img class="case-img" src="images/dash-mobile.svg" alt="dash-mobile">
       <p>
         Feedback is very important! There’s always something other people can see that you can’t. There’s always something other people know that you don’t.
       </p>
       <h3>PREFERENCE TESTS</h3>
-      <img src="images/search-pref.svg" alt="search-pref">
+      <img class="case-img" src="images/search-pref.svg" alt="search-pref">
       <a href="https://docs.google.com/document/d/1tsTlyp06H40ZmFtGCG4gFaeFmQ-c-XhxmmtWQxvDjaw/edit?usp=sharing" target="_blank">View Preference Test Results</a>
       <p>
         I tested two different search options between a full search bar and a search icon.  I realized I should have provided better options for this test, because people didn’t know what the icon will do. It was a vague option so I revised it and deployed a new version with more detailed options instead of a vague icon.
       </p>
-      <img src="images/social-pref.svg" alt="social-pref">
+      <img class="case-img" src="images/social-pref.svg" alt="social-pref">
       <p>
         I also learned about data breaches so after testing if users want the social sign-ins to be on top or bottom, I decided to remove them altogether so I don’t give users the option to unawaringly compromise their personal information for the sake of convenience. <span>As designers, we have an ethical responsibility to assess what type of options we provide users.</spam>
       </p>
@@ -342,7 +360,7 @@
         A design is never finished. Each iteration produces even more iterations. Users always have valuable input, big or small.
       </p>
       <h3>USABILITY TESTS, PART 2</h3>
-      <img src="images/font-pref.svg" alt="font-pref">
+      <img class="case-img" src="images/font-pref.svg" alt="font-pref">
       <a href="https://docs.google.com/document/d/1IgL2FNUp6wzoqJEQbZj75G3IHPMuDH4STJb6R89hzNY/edit?usp=sharing" target="_blank">View Script and Notes (Test 2)</a>
       <p>
         After asking participants about what emotions they felt while exploring PX website, it turned out that users didn’t like the typeface I have chosen.
@@ -352,7 +370,8 @@
       </p>
       <h4>Have a PX-traordinary Day!</h4>
       <button type="button" name="button">View Prototype</button>
-      <h2>REFLECTIONS</h2>
+      <div class="col-8">
+      <h2 id="reflections">REFLECTIONS</h2>
       <h3>Way to Grow!</h3>
       <p>
         After spending several weeks designing a cloud storage app from the ground up, I learned more about my strength and weaknesses as a designer, as well as illuminated some improvements I can make.
@@ -369,6 +388,7 @@
       <p>
         Keep learning, keep growing!
       </p>
+    </div>
     </section>
 
       <!-- Contact, Footer -->
