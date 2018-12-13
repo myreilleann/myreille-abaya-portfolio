@@ -114,18 +114,23 @@ a {
 
 main {
   background-image: url(../images/monogram.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   /* float: left; */
 }
 
+
+
 .hero {
-  /* grid-area: hero; */
+  margin-bottom: 6.25rem;
 }
 
 #hero-name {
   color: #563A5F;
   font-family: 'Arkipelago', sans-serif;
   font-size: 9.375rem;
-  /* margin-bottom: .6rem; */
+  margin-bottom: 1.25rem;
+  width: 100%;
 }
 
 h1 {
@@ -134,6 +139,10 @@ h1 {
   font-weight: bold;
   line-height: 140%;
   /* margin-bottom: .6rem; */
+}
+
+.my-rail {
+  margin-bottom: 6.25rem;
 }
 
 #brackets {
@@ -147,9 +156,15 @@ p {
   line-height: 140%;
 }
 
-/* .slogan {
-  margin-bottom: 2.1rem;
-} */
+.slogan {
+  margin-bottom: 3.125rem;
+  font-weight: normal;
+}
+
+.slogan2 {
+  font-weight: normal;
+  margin-bottom: 1.25rem;
+}
 
 button {
   background-color: transparent;
@@ -169,10 +184,11 @@ button:hover {
 }
 
 
+
 /* projects */
 
 section {
-  /* float: left; */
+  margin-bottom: 6.25rem;
 }
 
 #px-cover {
@@ -184,13 +200,13 @@ section {
 } */
 
 h3 {
-  border-top: .5rem solid rgba(86, 58, 95, 0.1);
+  border-top: .3125rem solid rgba(86, 58, 95, 0.1);
   border-bottom: .3125rem solid rgba(86, 58, 95, 0.1);
   font-family: 'Droid Sans', sans-serif;
   font-weight: bold;
   font-size: 2.5rem;
   line-height: 140%;
-  /* margin: 4.6rem 0; */
+  margin-bottom: 6.25rem;
 }
 
 /* img { */
@@ -200,8 +216,7 @@ h3 {
 }
 
 h4 {
-  /* margin-top: .6rem;
-  margin-bottom: 1.1rem; */
+  margin-bottom: 3.125rem;
 }
 
 h4 {
@@ -211,7 +226,24 @@ h4 {
   line-height: 140%;
 }
 
+.philosophy {
+  margin-bottom: 3.125rem;
+}
+
+.mb-113 {
+  margin-bottom: 14rem;
+}
+
+.mb-100 {
+  margin-bottom: 6.25rem;
+}
+
+.mb-50 {
+  margin-bottom: 3.125rem;
+}
+
 /* process */
+
 
 /* .process {
   grid-area: process;
@@ -228,7 +260,7 @@ h4 {
 } */
 
 .contact {
-  background-color: 080809;
+  background-color: #080809;
   display: inline-block;
 }
 
@@ -259,6 +291,21 @@ h2 {
 }
 
 /* bio */
+
+article {
+  margin-top: 6.25rem;
+}
+
+.myphoto {
+  float: right;
+}
+
+.quote {
+  border-top: .3125rem solid rgba(86, 58, 95, 0.1);
+  border-bottom: .3125rem solid rgba(86, 58, 95, 0.1);
+  font-size: 1.875;
+}
+
 
 /* .bio-title {
   grid-area: .bio-title;
