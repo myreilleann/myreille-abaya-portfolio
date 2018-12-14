@@ -7,8 +7,10 @@
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/grid/simple-grid.css">
     <link href="css/hover.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/hover-box.css">
+    <link rel="stylesheet" href="css/float-panel/demo2.css">
+    <link rel="stylesheet" href="css/grid/simple-grid.css">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Fonts -->
@@ -17,14 +19,16 @@
     <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
 
     <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="css/float-panel/float-panel.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   </head>
 
 
   <body>
     <div class="container col-12">
       <div class="row">
-        <nav class="navbar">
+        <nav class="float-panel" data-top="0" data-scroll="200" id="navbar">
+
 
         <!-- Mobile Nav -->
         <!-- <ul class="mobile-nav">
@@ -63,8 +67,10 @@
         <a href="https://xd.adobe.com/view/368a7a9f-5bca-45d0-751c-1ec60ea7056f-40bb/" target="_blank"><button type="button" name="button"><p class="button-text">View Prototype</p></button>
       </main>
 
+
       <!-- Local Nav -->
       <nav class="local-nav">
+        <div class="header">
         <ul>
           <li><a class="hvr-underline-from-left" href="#research">research</a></li>
           <li>|</li>
@@ -78,10 +84,12 @@
         </ul>
       </nav>
 
+
       <!-- Process -->
     <section class="process-px" id="research">
+      <div class="p-row">
       <h2 >PREMISE</h2>
-      <div class="col-8">
+      <div class="col-8 rellax" data-rellax-speed="7">
       <p>
         Most cloud storage apps in the market attempt to do everything and store all file types. PX is a cloud storage service that only stores photos and videos, because personal expression deserves its own space.
       </p>
@@ -165,13 +173,16 @@
       <ul/>
       <h3>COMPETITIVE ANALYSIS</h3>
     </div>
+  </div>
+  <div class="p-row">
       <figure>
-        <img class="case-img" src="images/companies.svg" alt="companies">
+        <img class="case-img rellax" src="images/companies.svg" alt="companies">
         <figcaption>
           <a href="https://app.xtensio.com/r1k4vqsi" target="_blank">View Competitive Analysis</a><caption></caption>
         </figcaption>
       </figure>
         <div class="col-8">
+        </div>
       <h4>Goals</h4>
       <ul>
         <li>
@@ -208,6 +219,7 @@
         </ul>
       </ul>
       <h3>USER SURVEYS</h3>
+    </div>
     </div>
       <img class="case-img" src="images/survey-1.svg" alt="people-graphic">
       <h4>Most use cloud storage for backup, file syncing, and real-time collaboration</h4>

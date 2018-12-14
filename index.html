@@ -7,22 +7,26 @@
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/grid/simple-grid.css">
     <link href="css/hover.css" rel="stylesheet">
     <link rel="stylesheet" href="css/hover-box.css">
+    <link rel="stylesheet" href="css/float-panel/demo2.css">
+    <link rel="stylesheet" href="css/grid/simple-grid.css">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:700" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+
+    <!-- Scripts -->
+    <script src="css/float-panel/float-panel.js"></script>
   </head>
 
 
   <body>
     <div class="container col-12">
       <div class="row">
-        <nav class="navbar">
+        <nav class="float-panel" data-top="0" data-scroll="200" id="navbar">
 
         <!-- Mobile Nav -->
         <!-- <ul class="mobile-nav">
@@ -61,31 +65,30 @@
               My designs combine high-tech functionality
               with human sensibility.
             </h4>
-            <a href="#projects"><button class="mb-113 hvr-sweep-to-right"type="button" name="projects"><p class="button-text">check out my work</p></button></a>
+            <a href="#projects"><button class="mb-113 hvr-sweep-to-right" type="button" name="projects"><p class="button-text">check out my work</p></button></a>
           <div>
-            <img id="down-arrow hidden-sm" src="images/down-arrow.svg" alt="down-arrow">
+            <imgid="down-arrow hidden-sm" src="images/down-arrow.svg" alt="down-arrow"></a>
           </div>
         </main>
 
         <!-- Projects -->
         <section id="projects">
-          <div class="px">
-          <h3 class="mb-100 col-8">my design show &amp; tell</h3>
-          <a href="project.html" target="_blank"><img class="image" id="px-cover" src="images/px-cover.svg" alt="project"></a>
-        </div>
-
-          <!-- Overlay -->
-          <div class="overlay">
-          <h1 class="text">px</h1>
-          <h4>a cloud storage for photos and videos</h4>
-          <p>research <br> branding <br> visual design</p>
-          <a href="project.html" target="_blank"></a><button type="button" name="projects"> <p class="button-text">tell me more</p></button>
-        </div>
-        </section>
+          <h3 class="mb-100 col-8 center slideanim">my design show &amp; tell</h3>
+          <div class="hvrbox">
+	<img src="images/px-cover.svg" alt="px" class="hvrbox-layer_bottom">
+  <a href="project.html" target="_blank">
+  <div class="hvrbox-layer_top">
+		<div class="hvrbox-text">
+      <h1>px</h1>
+      <h4>a cloud storage for photos and videos</h4>
+      <p>research <br> branding <br> visual design</p>
+    </div></a>
+	</div>
+</div>
 
         <!-- Process -->
         <section class="process-homepage">
-          <h3 class="mb-100 col-8">my design philosophy</h3>
+          <h3 class="mb-100 col-8 center slideanim">my design philosophy</h3>
           <div class="col-5">
             <h4 class="philosophy">I think outside the box.</h4>
             <p class="philosophy">I practice divergent thinking and start
@@ -97,10 +100,10 @@
             <p class="philosophy">I also make it a point to explore angles and perspectives outside established parameters, such as researching less popular companies, instead of only major ones.</p>
           </div>
           <div class="col-7">
-            <img id="outside-box" src="images/outside-box.svg" alt="illustration">
+            <img class="slideanim" id="outside-box" src="images/outside-box.svg" alt="illustration">
           </div>
           <div class="col-7">
-            <img id="accessible"src="images/accessibility.svg" alt="illustration">
+            <img class="slideanim" id="accessible"src="images/accessibility.svg" alt="illustration">
           </div>
           <div class="col-5">
             <h4 class="philosophy">I advocate inclusive design.</h4>
