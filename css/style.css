@@ -15,8 +15,7 @@ body {
   color: #080809;
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
-  /* margin: 0 auto;
-  width: 100%; */
+  width: 100%;
 }
 
 @font-face {
@@ -64,8 +63,9 @@ body {
   "footer";
 } */
 
-
-
+.center {
+  text-align: center;
+}
 
 /* nav */
 
@@ -74,12 +74,12 @@ body {
   /* display: flex; */
   position: fixed;
   top: 0;
-  /* left: 0; */
+  left: 0;
   height: 4em;
-  /* width: 100%; */
+  width: 100%;
   background-color: #ECEDED;
   box-sizing: border-box;
-  padding: 12px 18px;
+  padding: 12px 50px;
   transition: background-color 0.3s ease-out;
   z-index: 1;
 }
@@ -147,8 +147,9 @@ a:visited {
 
 main {
   background-image: url(../images/monogram.svg);
+  background-position: top right;
   background-repeat: no-repeat;
-  /* float: left; */
+  background-size: 90%;
 }
 
 
@@ -215,11 +216,9 @@ button {
   font-weight: bold;
 }
 
-#down-arrow {
-  display: inline-block;
-  align-items: center;
-  width: 100%;
-}
+ #down-arrow {
+   position: fixed;
+ }
 
 
 /* projects */
@@ -246,11 +245,6 @@ h3 {
   margin-bottom: 6.25rem;
 }
 
-/* img { */
-  /* margin-bottom: 2.1rem; */
-  /* position: fixed; */
-  /* z-index: -1; */
-}
 
 h4 {
   margin-bottom: 3.125rem;
@@ -261,6 +255,16 @@ h4 {
   font-size: 2.1875rem;
   font-weight: bold;
   line-height: 140%;
+}
+
+.outside-box {
+  border-left: .3125rem solid rgba(86, 58, 95, 0.1);
+  padding-left: 1.875rem;
+}
+
+.accessibility {
+  border-right: .3125rem solid rgba(86, 58, 95, 0.1);
+  padding-right: 1.875rem;
 }
 
 .philosophy {
@@ -305,16 +309,21 @@ h2 {
   font-size: 2.8125rem;
   font-weight: bold;
   text-align: center;
-  /* margin-bottom: 2.1rem;
-  margin-top: 2.1rem; */
+  text-transform: none;
 }
 
-
-#linkedin, #github, #email {
-  /* float: left; */
-  /* margin-left: 4.6rem; */
+.difference {
+  color: #ECEDED;
 }
 
+.contact-icons {
+  display: flex;
+  justify-content: center;
+}
+
+#linkedin, #github {
+  padding-right: 3.125rem;
+}
 .copyright {
   background-color: #080809;
   border-top: .125rem solid rgba(236, 237, 237, 0.2);
