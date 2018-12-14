@@ -74,9 +74,9 @@ body {
   /* display: flex; */
   position: fixed;
   top: 0;
-  left: 0;
+  /* left: 0; */
   height: 4em;
-  width: 100%;
+  /* width: 100%; */
   background-color: #ECEDED;
   box-sizing: border-box;
   padding: 12px 18px;
@@ -125,9 +125,8 @@ a:visited {
   color: #563A5F;
 }
 
-.right {
+#right-nav {
   display: flex;
-  float: right;
   flex: 1;
   font-size: 1.0625rem;
   font-weight: bold;
@@ -135,6 +134,7 @@ a:visited {
 }
 
 .right li {
+  float: right;
   margin-left: 1.875rem;
 }
 
@@ -162,6 +162,7 @@ main {
   font-family: 'Arkipelago', sans-serif;
   font-size: 9.375rem;
   margin-bottom: 1.25rem;
+  margin-top: 6.25rem;
   width: 100%;
 }
 
@@ -189,8 +190,8 @@ p {
 }
 
 .slogan {
-  margin-bottom: 3.125rem;
   font-weight: normal;
+  margin-bottom: 3.125rem;
 }
 
 .slogan2 {
@@ -198,9 +199,14 @@ p {
   margin-bottom: 1.25rem;
 }
 
+.strong {
+  font-weight: bold;
+}
+
 button {
   background-color: transparent;
   border: .125rem solid #563A5F;
+  margin-bottom: 3.125rem;
   padding: .3125rem 1.875rem;
 }
 
@@ -209,6 +215,11 @@ button {
   font-weight: bold;
 }
 
+#down-arrow {
+  display: inline-block;
+  align-items: center;
+  width: 100%;
+}
 
 
 /* projects */
@@ -375,53 +386,5 @@ h2 {
 
 
 
+
 /* media queries */
-
-@@media screen and {min-width: 70rem) {
-  .container {
-    grid-template-areas:
-    "navbar navbar"
-    "hero hero"
-    "projects projects"
-    "process process"
-    "footer footer"
-    grid-template-columns: 6fr 6fr;
-  }
-
-  .mobile-nav {
-    display: none;
-  }
-
-  main {
-    background-image: url('../images/hero.svg');
-    background-repeat: no-repeat;
-  }
-}
-
-@media screen and (min-width: 40em) {
-  .container {
-    grid-template-areas:
-    "navbar navbar navbar"
-    ". hero ."
-    "projects projects projects"
-    ". process-homepage ."
-    "footer footer footer";
-    grid-template-columns: 2fr 8fr 2fr;
-  }
-
-  .mobile-nav {
-    display: none;
-  }
-
-  main {
-    background-image: url('../images/hero.svg');
-    background-repeat: no-repeat;
-  }
-}
-
-
-/* about */
-.quotes {
-  width: 2.6rem;
-  height: 1.743px;
-}
