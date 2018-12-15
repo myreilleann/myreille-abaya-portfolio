@@ -291,8 +291,16 @@ h4 {
   margin-bottom: 3.125rem;
 }
 
+.mb-30 {
+  margin-bottom: 1.875rem;
+}
+
 .mb-20 {
   margin-bottom: 1.25rem;
+}
+
+.mr-100 {
+  margin-right: 6.25rem;
 }
 
 .mt-50 {
@@ -312,13 +320,17 @@ h4 {
   text-align: center;
 }
 
-/* .full-width-wrapper {
-    position: relative;
-} */
-
 .full-width-container {
     margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
+}
+
+.fw-normal {
+  font-weight: normal;
+}
+
+.fs-30 {
+  font-size: 1.875rem;
 }
 
 
