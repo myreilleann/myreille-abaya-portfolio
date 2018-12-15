@@ -67,6 +67,12 @@ body {
   text-align: center;
 }
 
+.full-width {
+
+}
+
+
+
 /* nav */
 
 #navbar {
@@ -227,8 +233,16 @@ section {
   margin-bottom: 6.25rem;
 }
 
-#px-cover {
-  width: 100%;
+
+.button-2 {
+  background-color: transparent;
+  border: .125rem solid #ECEDED;
+  margin-bottom: 3.125rem;
+  padding: .3125rem 1.875rem;
+}
+
+.green {
+  color: #ECEDED;
 }
 
 /* .projects {
@@ -262,11 +276,13 @@ h4 {
   padding-left: 1.875rem;
 }
 
+
 .accessibility {
   border-right: .3125rem solid rgba(86, 58, 95, 0.1);
   padding-right: 1.875rem;
 }
 
+}
 .philosophy {
   margin-bottom: 3.125rem;
 }
@@ -281,6 +297,11 @@ h4 {
 
 .mb-50 {
   margin-bottom: 3.125rem;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
 }
 
 /* process */
@@ -302,7 +323,8 @@ h4 {
 
 .contact {
   background-color: #080809;
-  display: inline-block;
+  margin: 0;
+  padding: 3.125rem 0;
 }
 
 h2 {
@@ -324,15 +346,18 @@ h2 {
 #linkedin, #github {
   padding-right: 3.125rem;
 }
+
 .copyright {
   background-color: #080809;
   border-top: .125rem solid rgba(236, 237, 237, 0.2);
   color: #ECEDED;
-  /* float: left; */
   font-size: 1.0625rem;
   font-weight: bold;
-  /* padding-bottom: 2.6rem;
-  padding-top: 2.6rem; */
+  padding: .825rem 0;
+}
+
+footer {
+  padding: 0;
 }
 
 /* bio */
