@@ -20,7 +20,7 @@ body {
 
 @font-face {
     font-family: 'arkipelagoregular';
-    src: url('arkipelago-webfont.woff2') format('woff2')
+    src: url('arkipelago-webfont.woff2') format('woff2'),
          url('arkipelago-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -183,8 +183,8 @@ h1 {
 }
 
 p {
-  font-size: 1.5625rem;
-  line-height: 140%;
+  font-size: 1.25rem;
+  line-height: 160%;
 }
 
 .slogan {
@@ -263,6 +263,7 @@ h4 {
   line-height: 140%;
 }
 
+
 .outside-box {
   border-left: .3125rem solid rgba(86, 58, 95, 0.1);
   padding-left: 1.875rem;
@@ -299,6 +300,10 @@ h4 {
   margin-bottom: 1.25rem;
 }
 
+.ml-100 {
+  margin-left: 6.25rem;
+}
+
 .mr-100 {
   margin-right: 6.25rem;
 }
@@ -308,7 +313,6 @@ h4 {
 }
 
 .flex {
-  align-items: center;
   display: flex;
 }
 
@@ -325,13 +329,27 @@ h4 {
   margin-right: calc(50% - 50vw);
 }
 
+.fs-30 {
+  font-size: 1.875rem;
+}
+
+.fx-25 {
+  font-size: 1.5625rem;
+}
+
 .fw-normal {
   font-weight: normal;
 }
 
-.fs-30 {
-  font-size: 1.875rem;
+.w-100 {
+    width: 100%;
 }
+
+
+
+
+
+
 
 
 /* process */
@@ -393,18 +411,22 @@ footer {
 
 /* bio */
 
+.bio {
+  border-left: .3125rem solid rgba(86, 58, 95, 0.1);
+  padding: 0 0 0 1.875rem;
+}
+
+
 article {
   margin-top: 6.25rem;
 }
 
-.myphoto {
-  float: right;
-}
 
 .quote {
   border-top: .3125rem solid rgba(86, 58, 95, 0.1);
   border-bottom: .3125rem solid rgba(86, 58, 95, 0.1);
-  font-size: 1.875;
+  font-size: 1.875rem;
+  padding: 1.875rem;
 }
 
 
