@@ -92,7 +92,16 @@ body {
 }
 
 .local-nav {
+  font-size: 1.0625rem;
   font-weight: bold;
+  position: fixed;
+  height: 4em;
+  width: 100%;
+  background-color: #ECEDED;
+  box-sizing: border-box;
+  padding: 12px 50px;
+  transition: background-color 0.3s ease-out;
+  z-index: 1;
 }
 
 .logo {
@@ -345,8 +354,26 @@ h4 {
     width: 100%;
 }
 
+.align-center {
+  align-items: center;
+}
 
+.pb-30 {
+  padding-bottom: 1.875rem;
+}
 
+.pt-30 {
+  padding-top: 1.875rem;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.bullet {
+  line-height: 210%;
+  list-style: square;
+}
 
 
 
@@ -446,9 +473,13 @@ article {
 /* px case study */
 
 .title {
-  background-color: #080809;
+  background-color: #563A5F;
   color: #ECEDED;
   /* grid-area: .title; */
+}
+
+.px-title {
+  padding: 3.125rem 0;
 }
 
 .px {
@@ -469,6 +500,11 @@ h2 {
 /* .process-px {
   grid-area: .process-px;
 } */
+
+/* properties */
+.quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
 
 
 
