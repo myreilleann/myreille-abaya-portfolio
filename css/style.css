@@ -204,16 +204,14 @@ p {
 button {
   background-color: transparent;
   border: .125rem solid #563A5F;
+  color: #563A5F;
   cursor: pointer;
+  font-family: 'Droid', sans-serif;
+  font-weight: bold;
   margin-bottom: 3.125rem;
   padding: .3125rem 1.875rem;
 }
 
-.button-text {
-  color: #563A5F;
-  font-family: 'Droid Sans', sans-serif;
-  font-weight: bold;
-}
 
  #down-arrow {
    position: fixed;
