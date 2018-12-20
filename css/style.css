@@ -142,19 +142,15 @@ a:link {
 
 /* hero unit */
 
-main {
+.hero {
   background-image: url(../images/monogram.svg);
   background-position: top right;
   background-repeat: no-repeat;
-  background-size: 68%;
+  background-size: contain;
+  background-blend-mode: soft-light;
+  margin-bottom: 6.25rem;
   padding-left: 3.75rem;
   padding-right: 3.75rem;
-}
-
-
-
-.hero {
-  margin-bottom: 6.25rem;
 }
 
 #hero-name {
@@ -208,14 +204,14 @@ button {
   cursor: pointer;
   font-family: 'Droid', sans-serif;
   font-weight: bold;
-  margin-bottom: 3.125rem;
+  margin-bottom: .4rem;
   padding: .3125rem 1.875rem;
 }
 
 
- #down-arrow {
+ /* #down-arrow {
    position: fixed;
- }
+ } */
 
 
 /* projects */
@@ -228,6 +224,7 @@ section {
 .button-2 {
   background-color: transparent;
   border: .125rem solid #ECEDED;
+  color: #ECEDED;
   margin-bottom: 3.125rem;
   padding: .3125rem 1.875rem;
 }
@@ -407,6 +404,13 @@ h4 {
   float: right;
 }
 
+.mt-50 {
+  margin-top: 3.125rem;
+}
+
+.p-0 {
+  padding: 0;
+}
 
 
 
@@ -541,8 +545,22 @@ h2 {
   font-family: 'Quicksand', sans-serif;
 }
 
-
-
+.hvr-fade-px {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade-px:hover, .hvr-fade-px:focus, .hvr-fade-px:active {
+  background-color: #ECEDED;
+  color: #563A5F;
+}
 
 
 /* media queries */
