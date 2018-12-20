@@ -562,5 +562,19 @@ h2 {
   color: #563A5F;
 }
 
+.survey-visual-all {
+  align-items: center;
+}
+
+.survey-visual-1 {
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.survey-visual-2 {
+  align-items: flex-start;
+  flex-direction: column;
+}
+
 
 /* media queries */
