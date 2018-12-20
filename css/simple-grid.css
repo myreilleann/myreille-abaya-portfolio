@@ -238,7 +238,7 @@ p {
   }
 
   .hidden-sm {
-    display: block;
+    display: hidden;
   }
 }
 
