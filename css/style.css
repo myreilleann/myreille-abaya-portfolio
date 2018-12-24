@@ -416,6 +416,14 @@ h4 {
   display: none;
 }
 
+.align-stretch {
+  align-content: stretch;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
 
 
 /* process */
@@ -532,7 +540,8 @@ article {
 }
 
 .case-img {
-  width: 100%;
+  margin: 0 auto;
+  width: 90%;
 }
 
 h2 {
