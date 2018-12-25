@@ -242,7 +242,8 @@ h3 {
   font-weight: bold;
   font-size: 2.5rem;
   line-height: 140%;
-  margin-bottom: 6.25rem;
+  margin-bottom: 3.125rem;
+  margin-top: 3.125rem;
 }
 
 
@@ -438,7 +439,21 @@ h4 {
   justify-content: space-around;
 }
 
+.mr-50 {
+  margin-right: 3.125rem;
+}
 
+.mt-50 {
+  margin-top: 3.125rem;
+}
+
+.mb-20 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-15 {
+  margin-bottom: .9375rem;
+}
 /* process */
 
 
