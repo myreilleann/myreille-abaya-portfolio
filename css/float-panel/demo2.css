@@ -70,7 +70,7 @@ html {
 
 body {
     font: normal 15px Calibri,Helvetica,Verdana,sans-serif;
-    line-height: 1.8;
+    /* line-height: 1.8; */
     color: #818181;
     margin: 0;
 }
