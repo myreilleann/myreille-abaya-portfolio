@@ -434,6 +434,9 @@ h4 {
   clear: both;
 }
 
+.space-around {
+  justify-content: space-around;
+}
 
 
 /* process */
@@ -551,8 +554,7 @@ article {
 }
 
 .case-img {
-  margin: 0 auto;
-  width: 90%;
+  width: 100%;
 }
 
 h2 {
@@ -587,6 +589,7 @@ h2 {
 }
 
 .survey-visual-all {
+  display: inline-flex;
   flex-direction: row;
 }
 
