@@ -459,8 +459,8 @@ h4 {
   display: inline-flex;
 }
 
-.self-center {
-  align-self: center;
+.width-50 {
+  width: 50%;
 }
 /* process */
 
