@@ -454,6 +454,14 @@ h4 {
 .mb-15 {
   margin-bottom: .9375rem;
 }
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.self-center {
+  align-self: center;
+}
 /* process */
 
 
@@ -616,6 +624,14 @@ h2 {
 .survey-visual-2 {
   align-items: flex-start;
   flex-direction: column;
+}
+
+.start {
+  justify-content: flex-start;
+}
+
+.end {
+  justify-content: flex-end;
 }
 
 #myBtn {
