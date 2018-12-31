@@ -7,6 +7,7 @@
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:700" rel="stylesheet">
     <link rel="stylesheet" href="css/webfontkit-20181208-121256/stylesheet.css" type="text/css" charset="utf-8" />
@@ -19,6 +20,7 @@
 
     <!-- Scripts -->
     <script src="css/float-panel/float-panel.js"></script>
+    <script src="js/script.js"></script>
   </head>
 
 
@@ -41,8 +43,16 @@
             <div class="right" id="right-nav">
               <li><a class="black hvr-underline-from-left" href="#projects">projects</a></li>
               <li><a class="black hvr-underline-from-left" href="resume.html" target="_blank">resume</a></li>
-              <li><a class="black hvr-underline-from-left" href="about.html" target="_blank">about</a></li>
-              <li><a class="black hvr-underline-from-left" href="contact.html" target="_blank">contact</a></li>
+              <li><a class="black hvr-underline-from-left mr-30" href="about.html" target="_blank">about</a></li>
+
+              <!-- dropdown -->
+              <div class="dropdown">
+               <a class="black dropbtn hvr-underline-from-left" onclick="myFunction()">contact</a>
+               <div class="dropdown-content" id="myDropdown">
+                 <a href="https://www.linkedin.com/in/myreille-abaya/" target="_blank"><img class="center" id="linkedin" src="images/linkedin.svg" alt="linkedin"></a>
+                 <a href="https://github.com/myreilleann" target="_blank"><img id="github" src="images/github.svg" alt="github"></a>
+                 <a href="contact.html" target="_blank>"><img id="email" src="images/email.svg" alt="email"></a>
+               </div>
             </div>
           </ul>
         </nav>
