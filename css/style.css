@@ -718,15 +718,41 @@ h2 {
 
 @media only screen
   and (min-device-width: 1024px)
-  and (max-device-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (max-device-width: 1366px) {
 }
 
 
 @media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3) {
+  and (min-device-width: 300px)
+  and (max-device-width: 812px) {
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      font-size: 2.25rem;
+    }
+
+    h3 {
+      font-size: 2rem;
+    }
+
+    h4 {
+      font-size: 1.75rem;
+    }
+
+    h5 {
+      font-size: 1.5rem;
+    }
+
+    h6 {
+      font-size: 1.25rem;
+    }
+
+    p {
+      font-size: 1.25rem;
+    }
 
     .hide-sm {
       display: none;
@@ -745,8 +771,24 @@ h2 {
       background: none;
     }
 
+    #hero-name {
+      font-size: 6.25rem;
+      line-height: 100%;
+      margin-top: 5rem;
+      text-align: center;
+    }
+
+    .my-rail {
+      text-align: center;
+    }
+
     .show {
       display: block;
+    }
+
+    .img-home {
+      margin-right: 0;
+      width: 100%;
     }
 
     .hide-border {
