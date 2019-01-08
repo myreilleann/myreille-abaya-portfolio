@@ -20,6 +20,7 @@
 
     <!-- Scripts -->
     <script src="css/float-panel/float-panel.js"></script>
+    <script src="js/script.js"></script>
   </head>
 
   <body>
@@ -34,18 +35,26 @@
           <li> <img class="hamburger" src="images/hamburger.svg" alt="menu"></li>
         </ul> -->
 
-          <!-- Full Nav -->
-          <ul class="flex full-nav">
-            <li><a href="index.html"><img class="logo" src="images/nav-logo.svg" alt="nav-logo"></a></li>
-            <li class="left"><span class="name">myreille abaya</span>  |   ux / ui designer &amp; developer</li>
-            <div class="right" id="right-nav">
-              <li><a class="black hvr-underline-from-left" href="index.html#projects" target="_blank">projects</a></li>
-              <li><a class="black hvr-underline-from-left" href="resume.html" target="_blank">resume</a></li>
-              <li><a class="black hvr-underline-from-left" href="about.html" target="_blank">about</a></li>
-              <li><a class="black hvr-underline-from-left" href="contact/contact.html" target="_blank">contact</a></li>
-            </div>
-          </ul>
-        </nav>
+        <!-- Full Nav -->
+        <ul class="flex full-nav">
+          <li><a href="index.html" target="_blank"><img class="logo" src="images/nav-logo.svg" alt="nav-logo"></a></li>
+          <li class="hide-sm left"><span class="name">myreille abaya</span>  |   ux / ui designer &amp; developer</li>
+          <div class="right" id="right-nav">
+            <li><a class="black hvr-underline-from-left" href="index.html#projects" target="_blank">projects</a></li>
+            <li><a class="black hvr-underline-from-left" href="resume.html" target="_blank">resume</a></li>
+            <li class="black hvr-underline-from-left mr-30">about</li>
+
+            <!-- dropdown -->
+            <div class="dropdown">
+             <a class="black dropbtn hvr-underline-from-left" onclick="myFunction()">contact</a>
+             <div class="dropdown-content" id="myDropdown">
+               <a href="https://www.linkedin.com/in/myreille-abaya/" target="_blank"><img class="center" id="linkedin" src="images/linkedin.svg" alt="linkedin"></a>
+               <a href="https://github.com/myreilleann" target="_blank"><img id="github" src="images/github.svg" alt="github"></a>
+               <a href="contact/contact.html" target="_blank>"><img id="email" src="images/email.svg" alt="email"></a>
+             </div>
+          </div>
+        </ul>
+      </nav>
 
       <!-- Bio -->
       <div class="mt-152">
