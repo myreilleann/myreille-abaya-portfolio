@@ -723,8 +723,8 @@ h2 {
 
 
 @media only screen
-  and (min-device-width: 300px)
-  and (max-device-width: 812px) {
+  and (min-device-width: 200px)
+  and (max-device-width: 850px) {
 
     h1 {
       font-size: 2.5rem;
@@ -765,6 +765,7 @@ h2 {
     #navbar {
       height: 8em;
       padding-top: 1.7em;
+      width: 100%;
     }
 
     .hero {
@@ -786,7 +787,7 @@ h2 {
       margin-left: 1rem;
     }
 
-    .show {
+    .hide {
       display: block;
     }
 
@@ -804,5 +805,13 @@ h2 {
 
     .contact {
       padding: 1rem;
+    }
+
+    .pt-20 {
+      padding-top: 1.25rem;
+    }
+
+    .flex-start {
+      justify-content: flex-start;
     }
 }
