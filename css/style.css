@@ -724,6 +724,10 @@ h2 {
   and (min-device-width: 200px)
   and (max-device-width: 850px) {
 
+    .projects-page {
+      overflow-x: hidden;
+    }
+
     h1 {
       font-size: 2.5rem;
     }
@@ -766,7 +770,7 @@ h2 {
       width: 100%;
     }
 
-    .nav-projects {
+    .right li:first-child {
       margin-left: 0;
     }
 
