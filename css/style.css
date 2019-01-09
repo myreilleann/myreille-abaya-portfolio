@@ -782,16 +782,27 @@ h2 {
       text-align: center;
     }
 
+    .slogan, .slogan2, .ml-16 {
+      margin-left: 1rem;
+    }
+
     .show {
       display: block;
     }
 
     .img-home {
       margin-right: 0;
+      padding: 1.25rem 0;
       width: 100%;
     }
 
-    .hide-border {
-      border: none;
+    .accessibility {
+      border-left: .3125rem solid rgba(86, 58, 95, 0.1);
+      border-right: none;
+      padding-left: 1.875rem;
+    }
+
+    .contact {
+      padding: 1rem;
     }
 }
