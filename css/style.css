@@ -68,8 +68,6 @@ body {
 /* nav */
 
 #navbar {
-  /* grid-area: navbar; */
-  /* display: flex; */
   position: fixed;
   top: 0;
   left: 0;
@@ -763,8 +761,8 @@ h2 {
     }
 
     #navbar {
-      height: 8em;
-      padding-top: 1.7em;
+      justify-content: center;
+      height: 6rem;
       width: 100%;
     }
 
