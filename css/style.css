@@ -766,6 +766,10 @@ h2 {
       width: 100%;
     }
 
+    .nav-projects {
+      margin-left: 0;
+    }
+
     .hero {
       background: none;
     }
