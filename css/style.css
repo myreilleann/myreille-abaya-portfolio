@@ -724,10 +724,6 @@ h2 {
   and (min-device-width: 200px)
   and (max-device-width: 850px) {
 
-    .projects-page {
-      overflow-x: hidden;
-    }
-
     h1 {
       font-size: 2.5rem;
     }
@@ -834,4 +830,19 @@ h2 {
       margin-left: 2rem;
     }
 
+    iframe {
+      width: 100%;
+    }
+
+    .case-img {
+      width: 100%;
+    }
+
+    img {
+      text-align: center;
+    }
+
+    .reverse {
+      flex-direction: column-reverse;
+    }
 }
