@@ -715,12 +715,6 @@ h2 {
 /* media queries */
 
 @media only screen
-  and (min-device-width: 1024px)
-  and (max-device-width: 1366px) {
-}
-
-
-@media only screen
   and (min-device-width: 200px)
   and (max-device-width: 850px) {
 
@@ -783,10 +777,6 @@ h2 {
 
     .my-rail {
       text-align: center;
-    }
-
-    .slogan, .slogan2, .ml-16 {
-      margin-left: 1rem;
     }
 
     .hide {
