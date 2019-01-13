@@ -75,7 +75,7 @@ body {
   width: 100%;
   background-color: #ECEDED;
   box-sizing: border-box;
-  padding: 12px 50px;
+  padding: .75rem 3.125rem;
   transition: background-color 0.3s ease-out;
   z-index: 1;
 }
@@ -669,21 +669,21 @@ h2 {
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
+  bottom: 1.25rem; /* Place the button at the bottom of the page */
+  right: 1.875rem; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: #ECEDED; /* Set a background color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
+  padding: .9375rem; /* Some padding */
 }
 
 
 /* dropdown */
 .dropdown .dropbtn {
   cursor: pointer;
-  font-size: 20px;
+  font-size: 1.25rem;
   border: none;
   outline: none;
   color: #080809;
@@ -702,7 +702,7 @@ h2 {
 
 .dropdown-content a {
   float: none;
-  padding: 12px;
+  padding: .75rem;
   text-decoration: none;
   display: block;
   text-align: center;
@@ -718,6 +718,14 @@ h2 {
 
 
 /* media queries */
+
+@media only screen
+  and (min-device-width: 850px)
+  and (max-device-width: 1100px) {
+    .hide-sm {
+      display: none;
+    }
+  }
 
 @media only screen
   and (min-device-width: 200px)
@@ -848,6 +856,11 @@ h2 {
     }
 
     .plr-96 {
-      padding: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .pt-20-sm {
+      padding-top: 1.25rem;
     }
 }
