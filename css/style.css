@@ -863,6 +863,11 @@ h2 {
     .pt-20-sm {
       padding-top: 1.25rem;
     }
+
+    body {
+      margin: 0 auto;
+      width: 85%;
+    }
 }
 
 
@@ -916,7 +921,11 @@ h2 {
       align-items: center;
       flex-direction: row;
       justify-content: center;
-      width: 50%;
+      width: 100%;
+    }
+
+    #right-nav {
+      text-align: center;
     }
 
     .right li:first-child {
@@ -1019,12 +1028,8 @@ h2 {
       width: 100%;
     }
 
-     {
-      margin: 0;
-    }
-
     body {
-      width: 85%;
       margin: 0 auto;
+      width: 85%;
     }
 }
