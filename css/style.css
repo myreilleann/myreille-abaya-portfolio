@@ -899,8 +899,14 @@ h2 {
 
     #navbar {
       justify-content: center;
-      height: 6rem;
+      height: 10rem;
       width: 100%;
+    }
+
+    .flex-row {
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
     }
 
     .right li:first-child {
@@ -1000,13 +1006,5 @@ h2 {
 
     .w-100-sm {
       width: 100%;
-    }
-
-    .black {
-      font-size: 1rem;
-    }
-
-    .dropdown .dropbtn {
-      font-size: 1rem;
     }
 }
