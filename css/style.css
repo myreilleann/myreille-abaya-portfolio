@@ -153,7 +153,7 @@ a:link {
   color: #563A5F;
   font-family: 'arkipelagoregular', sans-serif;
   font-size: 9.375rem;
-  height: 11.25rem;
+  line-height: 80%;
   width: 100%;
 }
 
@@ -720,16 +720,11 @@ h2 {
 /* media queries */
 
 @media only screen
-  and (min-device-width: 850px)
-  and (max-device-width: 1100px) {
+  and (min-device-width: 768px)
+  and (max-device-width: 1023px) {
     .hide-sm {
       display: none;
     }
-  }
-
-@media only screen
-  and (min-device-width: 200px)
-  and (max-device-width: 850px) {
 
     h1 {
       font-size: 2.5rem;
@@ -777,8 +772,139 @@ h2 {
       margin-left: 0;
     }
 
-    .hero {
-      background: none;
+    #hero-name {
+      font-size: 6.25rem;
+      line-height: 50%;
+      margin-top: 5rem;
+      text-align: center;
+    }
+
+    .my-rail {
+      text-align: center;
+    }
+
+    .hide {
+      display: block;
+    }
+
+    .img-home {
+      margin-right: 0;
+      padding: 1.25rem 0;
+      width: 100%;
+    }
+
+    .accessibility {
+      border-left: .3125rem solid rgba(86, 58, 95, 0.1);
+      border-right: none;
+      padding-left: 1.875rem;
+    }
+
+    .contact {
+      padding: 1rem;
+    }
+
+    .pt-20 {
+      padding-top: 1.25rem;
+    }
+
+    .right {
+      text-align: left;
+    }
+
+    .case-hero {
+      max-height: 100%;
+      max-width: 100%;
+      padding-top: 2.8rem;
+    }
+
+    .companies {
+      width: 80%;
+    }
+
+    .flex-end {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .bullet {
+      margin-left: 2rem;
+    }
+
+    iframe {
+      width: 100%;
+    }
+
+    .case-img {
+      width: 100%;
+    }
+
+    img {
+      text-align: center;
+    }
+
+    .reverse {
+      flex-direction: column-reverse;
+    }
+
+    .plr-96 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .pt-20-sm {
+      padding-top: 1.25rem;
+    }
+}
+
+
+@media only screen
+  and (min-device-width: 200px)
+  and (max-device-width: 767px) {
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      font-size: 2.25rem;
+    }
+
+    h3 {
+      font-size: 2rem;
+    }
+
+    h4 {
+      font-size: 1.75rem;
+    }
+
+    h5 {
+      font-size: 1.5rem;
+    }
+
+    h6 {
+      font-size: 1.25rem;
+    }
+
+    p {
+      font-size: 1.25rem;
+    }
+
+    .hide-sm {
+      display: none;
+    }
+
+    .flex {
+      flex-direction: column;
+    }
+
+    #navbar {
+      justify-content: center;
+      height: 6rem;
+      width: 100%;
+    }
+
+    .right li:first-child {
+      margin-left: 0;
     }
 
     #hero-name {
