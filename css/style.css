@@ -1018,4 +1018,13 @@ h2 {
     .w-100-sm {
       width: 100%;
     }
+
+     {
+      margin: 0;
+    }
+
+    body {
+      width: 85%;
+      margin: 0 auto;
+    }
 }
