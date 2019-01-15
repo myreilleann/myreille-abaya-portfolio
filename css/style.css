@@ -725,6 +725,15 @@ h2 {
   font-size: 1rem;
 }
 
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+
 /* media queries */
 
 @media only screen
