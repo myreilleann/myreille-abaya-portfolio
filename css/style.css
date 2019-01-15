@@ -717,6 +717,13 @@ h2 {
   display: block;
 }
 
+.mt-10 {
+  margin-top: .625rem;
+}
+
+.font-20 {
+  font-size: 1rem;
+}
 
 /* media queries */
 
