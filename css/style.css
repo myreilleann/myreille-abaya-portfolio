@@ -270,7 +270,6 @@ h4 {
   padding-right: 1.875rem;
 }
 
-}
 .philosophy {
   margin-bottom: 3.125rem;
 }
@@ -766,11 +765,10 @@ h5 {
   margin-top: 1.875rem;
 }
 
+
 /* media queries */
 
-@media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1023px) {
+@media (max-width: 1100px) {
     .hide-sm {
       display: none;
     }
@@ -812,7 +810,6 @@ h5 {
     }
 
     #navbar {
-      justify-content: center;
       height: 10rem;
       width: 100%;
     }
@@ -916,13 +913,19 @@ h5 {
       margin: 0 auto;
       width: 85%;
     }
+
+    .right li {
+      float: none;
+      margin-left: 0;
+    }
+
+    .about-link {
+      margin-right: 0;
+    }
 }
 
 
-@media only screen
-  and (min-device-width: 200px)
-  and (max-device-width: 767px) {
-
+@@media (min-width: 800px) {
     h1 {
       font-size: 2.5rem;
     }
@@ -1079,5 +1082,14 @@ h5 {
     body {
       margin: 0 auto;
       width: 85%;
+    }
+
+    .right li {
+      float: none;
+      margin-left: 0;
+    }
+
+    .about-link {
+      margin-right: 0;
     }
 }
