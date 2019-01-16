@@ -737,6 +737,31 @@ h2 {
   width: 85%;
 }
 
+.cheryl {
+  /* padding-right: .625rem; */
+  width: 80%;
+}
+
+h5 {
+  font-size: 1.875rem;
+  line-height: 150%;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.mt-10 {
+  margin-top: .625rem;
+}
+
+.persona {
+  border-left: .3125rem solid rgba(86, 58, 95, 0.1);
+}
+
+.space-between {
+  justify-content: space-between;
+}
 
 /* media queries */
 
