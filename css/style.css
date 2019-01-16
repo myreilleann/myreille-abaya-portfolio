@@ -738,7 +738,12 @@ h2 {
 }
 
 .cheryl {
-  /* padding-right: .625rem; */
+  width: 80%;
+}
+
+.tim {
+  /* margin-right: 3rem;
+  padding-right:rem; */
   width: 80%;
 }
 
@@ -761,6 +766,10 @@ h5 {
 
 .space-between {
   justify-content: space-between;
+}
+
+.mt-30 {
+  margin-top: 1.875rem;
 }
 
 /* media queries */
