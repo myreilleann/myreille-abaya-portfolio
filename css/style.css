@@ -768,12 +768,6 @@ h5 {
 
 /* media queries */
 
-@media (max-width: 1100px) {
-  .col-6 {
-    width: 50%;
-  }
-}
-
 @media (max-width: 1000px) {
 
     h1 {
@@ -933,6 +927,15 @@ h5 {
     .col-6 {
       width: 60%;
     }
+
+    .mr-100 {
+      margin-right: 0;
+    }
+
+    .outside-box, .accessibility {
+      padding-left: 1rem;
+      padding-right: 0;
+    }
 }
 
 
@@ -984,10 +987,6 @@ h5 {
       flex-direction: row;
       justify-content: center;
       width: 100%;
-    }
-
-    #right-nav {
-      text-align: center;
     }
 
     .right li:first-child {
@@ -1106,5 +1105,17 @@ h5 {
 
     .mr-100 {
       margin-right: 2.5rem;
+    }
+
+    .proj-cover {
+      width: 100%;
+    }
+
+    .proj-cover-px {
+        width: 100%;
+    }
+
+    .flex-1 {
+      flex: 1;
     }
 }
