@@ -765,13 +765,14 @@ h5 {
   margin-top: 1.875rem;
 }
 
+.proj-cover {
+  width: 85%;
+}
+
 
 /* media queries */
 
-@media (max-width: 1100px) {
-    .hide-sm {
-      display: none;
-    }
+@media (max-width: 1000px) {
 
     h1 {
       font-size: 2.5rem;
@@ -827,7 +828,7 @@ h5 {
 
     #hero-name {
       font-size: 6.25rem;
-      line-height: 50%;
+      line-height: 100%;
       margin-top: 12rem;
       text-align: center;
     }
@@ -911,7 +912,7 @@ h5 {
 
     body {
       margin: 0 auto;
-      width: 85%;
+      width: 90%;
     }
 
     .right li {
@@ -922,10 +923,14 @@ h5 {
     .about-link {
       margin-right: 0;
     }
+
+    .proj-cover {
+      width: 95%;
+    }
 }
 
 
-@@media (min-width: 800px) {
+@@media (max-width: 800px) {
     h1 {
       font-size: 2.5rem;
     }
@@ -1081,7 +1086,7 @@ h5 {
 
     body {
       margin: 0 auto;
-      width: 85%;
+      width: 95%;
     }
 
     .right li {
@@ -1091,5 +1096,9 @@ h5 {
 
     .about-link {
       margin-right: 0;
+    }
+
+    .mr-100 {
+      margin-right: 2.5rem;
     }
 }
