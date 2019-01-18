@@ -936,6 +936,14 @@ h5 {
       padding-left: 1rem;
       padding-right: 0;
     }
+
+    .flex-1 {
+      flex: 1;
+    }
+
+    .full-nav {
+      width: 100%;
+    }
 }
 
 
@@ -1117,5 +1125,9 @@ h5 {
 
     .flex-1 {
       flex: 1;
+    }
+
+    .full-nav {
+      width: 100%;
     }
 }
