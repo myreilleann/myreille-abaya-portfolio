@@ -1015,18 +1015,42 @@ h5 {
     }
 
     .persona-quote {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
     }
 
     .mb-25-sm {
       margin-bottom: 1.5635rem;
     }
+
+    .w-100-sm {
+      width: 100%;
+    }
+
+    .w-75-sm {
+      width: 75%;
+    }
+
+    .mt-20-sm {
+      margin-top: 1.25rem;
+    }
+
+    .col-12-sm {
+      width: 96%;
+    }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
 
   .flex-row-sm {
     flex-direction: column;
+  }
+
+  .persona {
+    border: none;
+  }
+
+  .border {
+    border-left: .3125rem solid rgba(86, 58, 95, 0.1);
   }
 }
 
