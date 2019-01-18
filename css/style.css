@@ -555,6 +555,14 @@ footer {
   padding: 0 0 0 1.875rem;
 }
 
+.w-50 {
+  width: 50%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
 
 article {
   margin-top: 6.25rem;
