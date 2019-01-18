@@ -754,7 +754,7 @@ h5 {
 }
 
 .space-between {
-  justify-content: space-between;
+  align-content: space-between;
 }
 
 .mt-30 {
@@ -767,6 +767,13 @@ h5 {
 
 
 /* media queries */
+
+@media (max-width: 1100px) {
+.persona-quote {
+  font-size: 1.6rem;
+}
+}
+
 @media (max-width: 1000px) {
 
     h1 {
@@ -989,6 +996,25 @@ h5 {
       align-items: flex-start;
       flex-direction: row;
     }
+
+    .pt-0 {
+      padding-top: 0;
+    }
+
+    .mr-20 {
+      margin-right: 1.25rem;
+    }
+
+    .persona-quote {
+      font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 400px) {
+
+  .flex-row-sm {
+    flex-direction: column;
+  }
 }
 
 
