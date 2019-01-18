@@ -767,7 +767,6 @@ h5 {
 
 
 /* media queries */
-
 @media (max-width: 1000px) {
 
     h1 {
@@ -972,6 +971,23 @@ h5 {
 
     .quote {
       font-size: 1.25rem;
+    }
+
+    .mb-50-sm {
+      margin-bottom: 3.125rem;
+    }
+
+    .left-sm {
+      align-self: flex-start;
+    }
+
+    .justify-center-sm {
+      justify-content: center;
+    }
+
+    .flex-row-sm {
+      align-items: flex-start;
+      flex-direction: row;
     }
 }
 
