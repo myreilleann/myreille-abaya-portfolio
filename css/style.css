@@ -944,6 +944,35 @@ h5 {
     .full-nav {
       width: 100%;
     }
+
+    .float-right-sm {
+      float: right;
+    }
+
+    .full-nav {
+      float: right;
+    }
+
+    .mt-50-sm {
+      margin-top: 3.125rem;
+    }
+
+    .mt-152 {
+      margin-top: 12rem;
+    }
+
+    .myphoto {
+      padding: 0;
+      margin: 1.25rem 0;
+    }
+
+    .bio {
+      padding-left: 1rem;
+    }
+
+    .quote {
+      font-size: 1.25rem;
+    }
 }
 
 
@@ -1129,5 +1158,29 @@ h5 {
 
     .full-nav {
       width: 100%;
+    }
+
+    .float-right-sm {
+      float: right;
+    }
+
+    .full-nav {
+      float: right;
+    }
+
+    .mt-50-sm {
+      margin-top: 3.125rem;
+    }
+
+    .mt-152 {
+      margin-top: 12rem;
+    }
+
+    .bio {
+      padding-left: 1rem;
+    }
+
+    .quote {
+      font-size: 1.25rem;
     }
 }
