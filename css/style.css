@@ -949,8 +949,8 @@ h5 {
       float: right;
     }
 
-    .full-nav {
-      float: right;
+    #right-nav {
+      align-items: flex-end;
     }
 
     .mt-50-sm {
@@ -976,7 +976,7 @@ h5 {
 }
 
 
-@@media (max-width: 800px) {
+/* @@media (max-width: 800px) {
     h1 {
       font-size: 2.5rem;
     }
@@ -1183,4 +1183,4 @@ h5 {
     .quote {
       font-size: 1.25rem;
     }
-}
+} */
