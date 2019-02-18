@@ -21,8 +21,8 @@ body {
 
 @font-face {
     font-family: 'arkipelagoregular';
-    src: url('arkipelago-webfont.woff2') format('woff2'),
-         url('arkipelago-webfont.woff') format('woff');
+    src: url('webfontkit-20181208-121256/arkipelago-webfont.woff2') format('woff2'),
+         url('webfontkit-20181208-121256/arkipelago-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
