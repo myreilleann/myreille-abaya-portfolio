@@ -67,9 +67,9 @@ window.onclick = function(e) {
 // "<span>"+words[i2]+"</span>"
 // }
 // nodes[i].innerHTML = html;
-$(window).resize(function () {
-    var viewportWidth = $(window).width();
-    if (viewportWidth < 600) {
-            $(".view").removeClass("full-width-container").addClass("gallery-mobile");
-    }
-});
+// $(window).resize(function () {
+//     var viewportWidth = $(window).width();
+//     if (viewportWidth < 600) {
+//             $(".view").removeClass("full-width-container").addClass("gallery-mobile");
+//     }
+// });
